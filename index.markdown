@@ -1,0 +1,58 @@
+---
+layout: home
+title: Hello World!
+---
+
+Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
+
+## Positions
+
+* Current
+  * CEO & Founder -> [Daxslab](https://www.daxslab.com)
+  * Marketing & Sales instructor ->
+[CubaEmprende](https://www.cubaemprendecienfuegos.org)
+* Former
+  * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://ucf.edu.cu)
+
+## My Tech Stack
+
+* Apache
+* Bootstrap
+* C++
+* C
+* CSS3
+* Docker
+* HTML5
+* Java
+* JavaScript
+* jQuery
+* MySQL
+* PHP
+* PostgreSQL
+* Python
+* Qt
+* Yii PHP Framework
+
+## Blogging
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+## Currently using
+
+* [Dell Inspiron 5523](https://www.dell.com/yu/business/p/inspiron-15z-5523/pd)
+* [Ubuntu 20.04](https://www.ubuntu.com)
+* [dwm](https://dwm.suckless.org), ([my custom build](https://github.com/glpzzz/dwm))
+* [my dotfiles](https://github.com/glpzzz/dotfiles)
+
+## Other stuff I like
+
+* Eat
+* Films
+* Music
+* Skating
