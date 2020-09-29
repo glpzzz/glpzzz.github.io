@@ -31,8 +31,8 @@ To receive emails with messages from the app, setup the log component to email (
 The [\yii\log\EmailTarget](https://www.yiiframework.com/doc/api/2.0/yii-log-emailtarget) component is another way to log  messages, in this case emailing them via the `mailer` component of the application as specified on the `mailer` attribute of `EmailTarget` configuration. Note that you can also specify messages properties and which levels of messages should be the sent trough this target.
 
 If you want to receive messages via other platforms besides email, there are other components that represents log targets:
-* Telegram: https://github.com/sergeymakinen/yii2-telegram-log
-* Slack: https://github.com/sergeymakinen/yii2-slack-log
+* [Telegram](https://github.com/sergeymakinen/yii2-telegram-log)
+* [Slack](https://github.com/sergeymakinen/yii2-slack-log)
 
 Or you can implement your own by subclassing
 [\yii\log\Target](https://www.yiiframework.com/doc/api/2.0/yii-log-target)

@@ -36,14 +36,10 @@
     <meta name="robots" content="follow">
 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
-    <link href="/github-markdown.css" rel="stylesheet">
     <style>
-        .markdown-body {
+        body {
             font-family: 'Fira Code', monospace;
             font-size: 18px;
-        }
-
-        body{
             padding: 1em;
         }
 
@@ -51,7 +47,7 @@
             width: 100%;
         }
 
-        .markdown-body .list-inline {
+        .list-inline {
             padding: 0;
         }
 
@@ -64,10 +60,22 @@
             content: ", ";
         }
 
+        .language-plaintext.highlighter-rouge {
+            overflow-x: auto;
+            background: rgb(245, 245, 245);
+            padding: 0 1em;
+        }
+
         @media(min-width: 768px) {
-            body{
-                padding: 0 15%;
+            body {
+                padding: 0 20%;
             }
+
+            img[src*='glpzzz.jpg'] {
+                width: 35%;
+                float: right;
+            }
+        
         }
     </style>
 
@@ -113,27 +121,27 @@
 </head>
 
 <body class="markdown-body">
-        <main>
-            <article>
-                <header>
-                    <h1>{{page.title}}</h1>
-                </header>
-                {{ content }}
-            </article>
-        </main>
-        <footer>
-            <h2>Contact me</h2>
-            <ul class="list-inline">
-                <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="noopener">CodersRank</a></li>
-                <li><a href="https://dev.to/glpzzz" target="_blank" rel="noopener">DEV</a></li>
-                <li><a href="https://github.com/glpzzz" target="_blank" rel="noopener">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/glpzzz" target="_blank" rel="noopener">LinkedIn</a></li>
-                <li><a href="https://join.skype.com/invite/swrMO6a3xWXv" target="_blank" rel="noopener">Skype</a></li>
-                <li><a href="https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez" target="_blank" rel="noopener">StackOverflow</a></li>
-                <li><a href="https://t.me/glpzzz" target="_blank" rel="noopener">Telegram</a></li>
-                <li><a href="https://twitter.com/glpzzz" target="_blank" rel="noopener">Twitter</a></li>
-            </ul>
-        </footer>
+    <main>
+        <article>
+            <header>
+                <h1>{{page.title}}</h1>
+            </header>
+            {{ content }}
+        </article>
+    </main>
+    <footer>
+        <h2>Contact me</h2>
+        <ul class="list-inline">
+            <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="noopener">CodersRank</a></li>
+            <li><a href="https://dev.to/glpzzz" target="_blank" rel="noopener">DEV</a></li>
+            <li><a href="https://github.com/glpzzz" target="_blank" rel="noopener">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/glpzzz" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://join.skype.com/invite/swrMO6a3xWXv" target="_blank" rel="noopener">Skype</a></li>
+            <li><a href="https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez" target="_blank" rel="noopener">StackOverflow</a></li>
+            <li><a href="https://t.me/glpzzz" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://twitter.com/glpzzz" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

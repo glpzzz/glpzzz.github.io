@@ -3,6 +3,8 @@ layout: home
 title: Hello World!
 ---
 
+![Picture of glpzzz](\glpzzz.jpg)
+
 Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
 
 ## Positions
@@ -16,22 +18,24 @@ Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos,
 
 ## My Tech Stack
 
-* Apache
-* Bootstrap
-* C++
-* C
-* CSS3
-* Docker
-* HTML5
-* Java
-* JavaScript
-* jQuery
-* MySQL
-* PHP
-* PostgreSQL
-* Python
-* Qt
-* Yii PHP Framework
+<ul class="list-inline">
+    <li>Apache</li>
+    <li>Bootstrap</li>
+    <li>C++</li>
+    <li>C</li>
+    <li>CSS3</li>
+    <li>Docker</li>
+    <li>HTML5</li>
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>MySQL</li>
+    <li>PHP</li>
+    <li>PostgreSQL</li>
+    <li>Python</li>
+    <li>Qt</li>
+    <li>Yii PHP Framework</li>
+</ul>
 
 ## Blogging
 
