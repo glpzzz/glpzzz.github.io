@@ -2,6 +2,7 @@
 layout: home
 title: "Simple way to set wallpaper on Linux"
 date: 2020-09-13
+description: "The simplest way to set a wallpaper on Linux: use hsetroot."
 ---
 I don't use any major desktop environment on Linux. Most of these takes care of managing the wallpaper of your session by some functionality in the specific file manager. So, the desktop is treated as  another directory by Nautius, Dolphin, Thunar, and others. 
 

@@ -4,35 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{page.title}} | Gabriel A. L&oacute;pez L&oacute;pez</title>
+    <title>{{page.title}} | {{site.title}}</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444">
-    <meta name="apple-mobile-web-app-title" content="Gabriel A. L&oacute;pez L&oacute;pez">
-    <meta name="application-name" content="Gabriel A. L&oacute;pez L&oacute;pez">
+    <meta name="apple-mobile-web-app-title" content="{{site.title}}">
+    <meta name="application-name" content="{{site.title}}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <meta property="og:title" content="{{page.title}} | Gabriel A. L&oacute;pez L&oacute;pez">
-    <meta property="og:site_name" content="Gabriel A. L&oacute;pez L&oacute;pez">
-    <meta property="og:url" content="https://glpzzz.github.io">
-    <meta property="og:description" content="Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in Cienfuegos, Cuba. I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:site_name" content="{{site.title}}">
+    <meta property="og:url" content="{{site.url}}{{page.url}}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:type" content="profile">
     <meta property="og:image" content="https://glpzzz.github.io/glpzzz.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@glpzzz">
     <meta name="twitter:creator" content="@glpzzz">
-    <meta name="twitter:title" content="{{page.title}} | Gabriel A. L&oacute;pez L&oacute;pez">
-    <meta name="twitter:description" content="Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in Cienfuegos, Cuba. I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="https://glpzzz.github.io/glpzzz.jpg">
 
-    <meta name="author" content="Gabriel A. L&oacute;pez L&oacute;pez">
-    <meta name="description" content="Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in Cienfuegos, Cuba. I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.">
-    <meta name="keywords" content="Gabriel L&oacute;pez, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
+    <meta name="author" content="{{site.title}}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{{site.title}}, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
     <meta name="robots" content="follow">
 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
@@ -41,6 +41,15 @@
             font-family: 'Fira Code', monospace;
             font-size: 18px;
             padding: 1em;
+        }
+
+        header > p{
+            color: rgb(128,128,128);
+            font-style: italic;
+        }
+
+        header > p:before{
+            content: "> "
         }
 
         img {
@@ -75,7 +84,7 @@
                 width: 35%;
                 float: right;
             }
-        
+
         }
     </style>
 
@@ -84,12 +93,12 @@
             "@context": "http://schema.org",
             "@type": "BlogPosting",
             "headline": "{{page.title}}",
-            "url": "{{page.url}}",
+            "url": "{{site.url}}{{page.url}}",
             "image": "https://glpzzz.github.io/glpzzz.jpg",
             "author": {
                 "@type": "Person",
-                "name": "Gabriel A. L&oacute;pez L&oacute;pez",
-                "url": "https://glpzzz.github.io",
+                "name": "{{site.title}}",
+                "url": "{{site.url}}",
                 "image": "https://glpzzz.github.io/glpzzz.jpg",
                 "sameAs": [
                     "https://twitter.com/glpzzz",
@@ -125,6 +134,9 @@
         <article>
             <header>
                 <h1>{{page.title}}</h1>
+                {% if page.description %}
+                   <p>{{ page.description }}</p>
+                {% endif %}
             </header>
             {{ content }}
         </article>

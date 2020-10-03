@@ -2,6 +2,7 @@
 layout: home
 title: "About tiling windows managers"
 date: 2019-11-28
+description: "This is a quick introduction to three of the more popular tiling windows managers: i3, bspwm and my favorite dwm. Just to know my vision about each one of these. I hope this helps you..."
 ---
 I have been using tiling windows managers for a couple of years now and I love it!
 

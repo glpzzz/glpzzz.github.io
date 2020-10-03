@@ -2,6 +2,7 @@
 layout: home
 title: Personal directory distributed over several physical disks
 date: 2020-03-12
+description: "How to split your home directory in several disks instead of having a bunch o units visibly mounted on your file manager."
 ---
 Someone may say that it is a symptom of OCD, but the fact is that I do not like having disk drives visible in the file browser. Point! I also do not like having a separate disk to store other things and that remain outside my home directory.
 
