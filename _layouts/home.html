@@ -35,10 +35,9 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="https://glpzzz.github.io/glpzzz.jpg">
 
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Fira Code', monospace;
+            font-family: monospace;
             font-size: 18px;
             padding: 1em;
         }
@@ -98,6 +97,29 @@
                 float: right;
             }
 
+        }
+
+        ul.share-buttons {
+            list-style: none;
+            padding: 0;
+            padding-bottom: 3em;
+            margin-bottom: 3em;
+            border-bottom: 1px solid rgb(128,128,128);
+        }
+
+        ul.share-buttons li {
+            display: inline;
+        }
+
+        ul.share-buttons .sr-only {
+            position: absolute;
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px, 1px, 1px, 1px);
+            padding: 0;
+            border: 0;
+            height: 1px;
+            width: 1px;
+            overflow: hidden;
         }
     </style>
 
@@ -161,11 +183,24 @@
             <header>
                 <h1>{{page.title}}</h1>
                 {% if page.description %}
-                <p>{{ page.description }}</p>
+                    <p>{{page.date}} - {{ page.description }}</p>
                 {% endif %}
             </header>
 
             {{ content }}
+
+            {% if page.title != "Hello World!" %}
+                <footer>
+                    <h2>Liked? Share this!</h2>
+                    <ul class="share-buttons" data-source="simplesharingbuttons.com">
+                        <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fglpzzz.github.io&quote=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;">Facebook</a></li>
+                        <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fglpzzz.github.io&text=:%20http%3A%2F%2Fglpzzz.github.io&via=glpzzz" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">Twitter</a></li>
+                        <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fglpzzz.github.io&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">Reddit</a></li>
+                        <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fglpzzz.github.io&title=&summary=&source=http%3A%2F%2Fglpzzz.github.io" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">LinkedIn</a></li>
+                    </ul>
+                </footer>
+            {% endif %}
+
         </article>
     </main>
     <footer>
@@ -181,6 +216,8 @@
             <li><a href="https://twitter.com/glpzzz" target="_blank" rel="noopener">Twitter</a></li>
         </ul>
     </footer>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 
 </html>
