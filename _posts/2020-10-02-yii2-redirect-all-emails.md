@@ -5,16 +5,16 @@ description: "Let's redirect all the emails sent by our Yii2 aplication to our i
 ---
 [\yii\mail\BaseMailer::useFileTransport](https://www.yiiframework.com/doc/api/2.0/yii-mail-basemailer#$useFileTransport-detail) is a great tool. If you activate it, all
 emails sent trough this mailer will be saved (by default) on `@runtime/mail`
-instead of being sent, allowing the devs to inspect the result. 
+instead of being sent, allowing the developers to inspect the result. 
 
 But what happens if we want to actually receive the emails on our inboxes. When
-all emails are suppose to go to one account, there is no problem: setup it as
-a param and the modify it in the `params-local.php` (assuming advaced
+all emails are supposed to go to one account, there is no problem: setup it as
+an application parameter and the modify it in the `params-local.php` (assuming advaced
 application template).
 
 The big issue arises when the app is supposed to send emails to different
-accounts and make use of replyTo, cc and bcc fields. It's almost impossible try
-to solve it with previous approach and without using a lot of `if(YII_DEBUG)`.
+accounts (and more if making use of replyTo, cc and bcc fields). It's almost impossible try
+to solve this with the previously explained approach and without using a lot of conditionals like `if(YII_DEBUG)`.
 
 Well, next there is a solution: 
 

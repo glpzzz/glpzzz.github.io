@@ -13,7 +13,7 @@ Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos,
   * Marketing & Sales instructor ->
 [CubaEmprende](https://www.cubaemprendecienfuegos.org)
 * Former
-  * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://ucf.edu.cu)
+  * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://www.ucf.edu.cu)
 
 ## My Tech Stack
 
