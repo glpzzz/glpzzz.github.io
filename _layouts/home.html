@@ -26,14 +26,14 @@
     <meta property="og:url" content="{{site.url}}{{page.url}}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://glpzzz.github.io/glpzzz.jpg">
+    <meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}https://glpzzz.github.io/glpzzz.jpg{% endif %}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@glpzzz">
     <meta name="twitter:creator" content="@glpzzz">
     <meta name="twitter:title" content="{{page.title}}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="https://glpzzz.github.io/glpzzz.jpg">
+    <meta name="twitter:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}https://glpzzz.github.io/glpzzz.jpg{% endif %}">
 
     <style>
         body {
@@ -181,7 +181,11 @@
             {% endif %}
 
             <header>
-                <h1>{{page.title}}</h1>
+                {% if page.image %}
+                    <h1><img src="{{page.image}}" alt="{{page.title}}" /></h1>
+                {% else %}
+                    <h1>{{page.title}}</h1>
+                {% endif %}
                 {% if page.description %}
                     <p>{{ page.date | date: '%B %d, %Y' }} - {{ page.description }}</p>
                 {% endif %}
