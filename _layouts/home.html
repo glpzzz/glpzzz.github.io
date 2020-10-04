@@ -39,6 +39,9 @@
     <style>
         body {
             padding: 1em;
+            {% if page.is_post %}
+              padding-top: 3em;
+            {% endif %}
         }
 
         body,
@@ -63,6 +66,12 @@
         .breadcrumbs {
             padding: 0;
             font-size: 85%;
+            margin: 0;
+            padding: 1em 0;
+            background: #fff;
+            position: fixed;
+            top: 0;
+            width: 100%;
         }
 
         .breadcrumbs>li {
@@ -99,6 +108,9 @@
         @media(min-width: 768px) {
             body {
                 padding: 0 20%;
+                {% if page.is_post %}
+                  padding-top: 3em;
+                {% endif %}
             }
 
             img[src*='glpzzz.jpg'] {
@@ -239,7 +251,6 @@
         </ul>
     </footer>
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
-
 </html>
+
