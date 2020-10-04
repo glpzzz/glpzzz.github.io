@@ -2,7 +2,7 @@
 title: "How to redirect all emails to one inbox on Yii2 applications"
 date: 2020-10-02
 description: "Let's redirect all the emails sent by our Yii2 aplication to our inbox while developing it. This way we don't need to inspect emails stored in @runtime/mail."
-image: /assets/how-to.png
+image: /assets/yii2-redirect-all-emails.png
 ---
 [\yii\mail\BaseMailer::useFileTransport](https://www.yiiframework.com/doc/api/2.0/yii-mail-basemailer#$useFileTransport-detail) is a great tool. If you activate it, all
 emails sent trough this mailer will be saved (by default) on `@runtime/mail`

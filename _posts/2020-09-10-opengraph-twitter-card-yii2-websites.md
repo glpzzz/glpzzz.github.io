@@ -2,7 +2,7 @@
 title:  "How to add Open Graph and Twitter Card tags to Yii2 website"
 date:   2020-09-10 00:00:00 -0500
 description: "Small tutorial on how to use TaggedView Yii2 extension made by Daxslab to add OpenGraph and Twitter Card tags to any Yii2 application or website. Efficient and time saver!"
-tags: [yii2, php, opengraph, twitter cards, seo]
+image: /assets/opengraph-twitter-card-yii2-websites.png
 ---
 
 [OpenGraph](https://ogp.me/) and [Twitter Cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards) are two metadata sets that allow to describe web pages and make it more understandable for Facebook and Twitter respectively.
