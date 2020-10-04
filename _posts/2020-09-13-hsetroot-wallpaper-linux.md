@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "Simple way to set wallpaper on Linux"
 date: 2020-09-13
 description: "The simplest way to set a wallpaper on Linux: use hsetroot."

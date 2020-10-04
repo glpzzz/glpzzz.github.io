@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "How to redirect all emails to one inbox on Yii2 applications"
 date: 2020-10-02
 description: "Let's redirect all the emails sent by our Yii2 aplication to our inbox while developing it. This way we don't need to inspect emails stored in @runtime/mail."

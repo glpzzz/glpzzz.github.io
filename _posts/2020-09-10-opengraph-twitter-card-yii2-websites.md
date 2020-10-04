@@ -1,5 +1,4 @@
 ---
-layout: home
 title:  "How to add Open Graph and Twitter Card tags to Yii2 website"
 date:   2020-09-10 00:00:00 -0500
 description: "Small tutorial on how to use TaggedView Yii2 extension made by Daxslab to add OpenGraph and Twitter Card tags to any Yii2 application or website. Efficient and time saver!"

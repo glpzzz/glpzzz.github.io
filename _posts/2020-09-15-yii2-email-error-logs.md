@@ -1,5 +1,4 @@
 ---
-layout: home
 title: "How to email error logs to developer on Yii2 apps"
 date: 2020-09-15
 description: "Use yii\\log\\EmailTarget to receive error messages/warnings from your Yii2 application directly in your inbox."

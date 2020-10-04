@@ -1,5 +1,4 @@
 ---
-layout: home
 title:  "How to add Schema.org markup to Yii2 pages?"
 date:   2020-09-11 00:00:00 -0500
 description: "Let's use Schema.org on our website to help search engines to know more about the content of this URL. Here I'll you how to do it on Yii2 applications."

@@ -167,7 +167,7 @@
 <body class="markdown-body">
     <main>
         <article>
-            {% if page.title != "Hello World!" %}
+            {% if page.is_post %}
             <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                     <a itemprop="item" title="Hello World!" href="/"><span itemprop="name">home</span></a>
@@ -189,7 +189,7 @@
 
             {{ content }}
 
-            {% if page.title != "Hello World!" %}
+            {% if page.is_post %}
                 <footer>
                     <h2>Liked? Share this!</h2>
                     <ul class="share-buttons" data-source="simplesharingbuttons.com">

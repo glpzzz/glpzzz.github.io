@@ -1,5 +1,4 @@
 ---
-layout: home
 title: Personal directory distributed over several physical disks
 date: 2020-03-12
 description: "How to split your home directory in several disks instead of having a bunch o units visibly mounted on your file manager."
