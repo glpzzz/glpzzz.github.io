@@ -9,11 +9,11 @@ Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos,
 ## Positions
 
 * Current
-  * CEO & Founder -> [Daxslab](https://www.daxslab.com)
-  * Marketing & Sales instructor ->
+    * CEO & Founder -> [Daxslab](https://www.daxslab.com)
+    * Marketing & Sales instructor ->
 [CubaEmprende](https://www.cubaemprendecienfuegos.org)
 * Former
-  * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://www.ucf.edu.cu)
+    * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://www.ucf.edu.cu)
 
 ## My Tech Stack
 
@@ -59,3 +59,17 @@ Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos,
 * Films
 * Music
 * Skating
+
+
+<aside>
+    <h2>Subscribe</h2>
+    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=glpzzz', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <p>
+            <input type="text" style="width:35%" name="email" placeholder="Enter your email address" />
+            <input type="submit" value="Subscribe" />
+            <input type="hidden" value="glpzzz" name="uri" />
+            <input type="hidden" name="loc" value="en_US" />
+        </p>
+        <p style="display: none">Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p>
+    </form>
+</aside>
