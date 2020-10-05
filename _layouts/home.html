@@ -40,7 +40,7 @@
         body {
             padding: 1em;
             {% if page.is_post %}
-              padding-top: 3em;
+                padding-top: 3em;
             {% endif %}
         }
 
@@ -50,7 +50,7 @@
             font-size: 18px;
         }
 
-        input{
+        input {
             padding: 0.5em;
         }
 
@@ -67,10 +67,11 @@
             padding: 0;
             font-size: 85%;
             margin: 0;
-            padding: 1em 0;
+            padding: 1em 1.5em;
             background: #fff;
             position: fixed;
             top: 0;
+            left: 0;
             width: 100%;
         }
 
@@ -105,22 +106,7 @@
             padding: 0 1em;
         }
 
-        @media(min-width: 768px) {
-            body {
-                padding: 0 20%;
-                {% if page.is_post %}
-                  padding-top: 3em;
-                {% endif %}
-            }
-
-            img[src*='glpzzz.jpg'] {
-                width: 35%;
-                float: right;
-            }
-
-        }
-
-        article > footer{
+        article>footer {
             border-bottom: 1px solid rgb(128, 128, 128);
             padding-bottom: 3em;
             margin-bottom: 3em;
@@ -144,6 +130,48 @@
             height: 1px;
             width: 1px;
             overflow: hidden;
+        }
+
+        @media(prefers-color-scheme: dark) {
+
+            body,
+            .breadcrumbs {
+                background: #000;
+                color: #fff;
+            }
+
+            a {
+                color: #0f0;
+            }
+
+            .language-plaintext.highlighter-rouge {
+                background: rgb(10, 10, 10);
+            }
+
+            input{
+              background: #000;
+              color: #0f0;
+              border-color: #0f0;
+            }
+        }
+
+        @media(min-width: 768px) {
+            body {
+                padding: 0 20%;
+                {% if page.is_post %}
+                    padding-top: 3em;
+                {% endif %}
+            }
+
+            img[src*='glpzzz.jpg'] {
+                width: 35%;
+                float: right;
+            }
+
+            .breadcrumbs{
+              padding: 1em 20.5%;
+            }
+
         }
     </style>
 
@@ -229,8 +257,8 @@
 
                 <h2>Keep reading</h2>
                 <ul>
-                  {% if page.next %}<li><strong>Next:</strong> <a href="{{page.next.url}}">{{page.next.title}}</a></li>{% endif %}
-                  {% if page.previous %}<li><strong>Previous:</strong> <a href="{{page.previous.url}}">{{page.previous.title}}</a></li>{% endif %}
+                    {% if page.next %}<li><strong>Next:</strong> <a href="{{page.next.url}}">{{page.next.title}}</a></li>{% endif %}
+                    {% if page.previous %}<li><strong>Previous:</strong> <a href="{{page.previous.url}}">{{page.previous.title}}</a></li>{% endif %}
                 </ul>
             </footer>
             {% endif %}
@@ -252,5 +280,5 @@
     </footer>
 
 </body>
-</html>
 
+</html>
