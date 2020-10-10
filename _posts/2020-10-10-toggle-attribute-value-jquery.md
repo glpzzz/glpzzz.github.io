@@ -2,7 +2,7 @@
 title: "How to toggle attribute values using jQuery"
 date: 2020-10-10
 description: "Some ways to toggle the value of an attribute between two options by using jQuery. Go to the last one if you are in a hurry!"
-image: /assets/jquery-toggle-attributes.png
+image: /assets/toggle-attribute-value-jquery.png
 ---
 I just came across a very simple question on StackOverflow. In the end is how to toggle the value of an attribute using jQuery.
 
