@@ -48,4 +48,4 @@ $('thebutton').click(function(){
 });
 ```
 
-Just learned a new thing today. I can sleep easy.
+Just learnt a new thing today. I can sleep easy.
