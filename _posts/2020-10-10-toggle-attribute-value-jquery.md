@@ -4,7 +4,7 @@ date: 2020-10-10
 description: "Some ways to toggle the value of an attribute between two options by using jQuery. Go to the last one if you are in a hurry!"
 image: /assets/toggle-attribute-value-jquery.png
 ---
-I just came across a very simple question on StackOverflow. In the end is how to toggle the value of an attribute using jQuery.
+I just came across a very simple [question on StackOverflow](https://stackoverflow.com/questions/64290056/how-to-use-button-action-to-toggle-between-two-states-of-a-textarea-using-jquery). In the end is how to toggle the value of an attribute using jQuery.
 
 ## The long version
 
@@ -38,7 +38,7 @@ I've created a [gist](https://gist.github.com/glpzzz/762afe32e8c245216869e9b1bd0
 
 ## The fancy version (new for me)
 
-I still had the doubt if this could be done easier, and find the next way thanks to this [answer](https://stackoverflow.com/questions/18665031/how-to-toggle-attr-in-jquery/18665152#18665152:
+I still had the doubt if this could be done easier, and find the next way thanks to this [answer](https://stackoverflow.com/questions/18665031/how-to-toggle-attr-in-jquery/18665152#18665152):
 
 ```
 $('thebutton').click(function(){
