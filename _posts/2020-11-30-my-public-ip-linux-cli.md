@@ -22,10 +22,12 @@ So, now I just need to type
 myip
 ```
 
-and I will get:
+## Update
+
+The coleagues @codeshard and @luilver on Twitter suggested this other way:
 
 ```
-XXX.XXX.XXX.XXX
+curl ifconfig.io
 ```
 
 ;-) Useful for me, hope it's useful for you!
