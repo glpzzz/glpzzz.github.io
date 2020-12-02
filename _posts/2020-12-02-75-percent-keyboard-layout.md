@@ -16,7 +16,7 @@ my Dell Inspiron 5523. As you can see in the picture It have all the keys except
 for the number keypad but arranged in a more compact way.
 
 So, when deciding which mechanical keyboard to buy, the safe choice was this
-one. Until now, typing experience is very good: I'm getting use to the sound
+one. Until now, the typing experience is very good: I'm getting use to the sound
  and to the tactile feedback. But yeah, it feels nice! Very different from the
  keyboard on my laptop or the external Logitech I bought and never used
  (impossible for me).
