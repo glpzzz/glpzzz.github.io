@@ -2,9 +2,9 @@
 title: Hello World!
 ---
 
-![Picture of glpzzz](\glpzzz.jpg)
+![Picture of Gabriel Alejandro López López (glpzzz)](\glpzzz.jpg)
 
-Hi, I’m Gabriel L&oacute;pez. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
+Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
 
 ## Positions
 
