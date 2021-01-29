@@ -21,13 +21,13 @@ using Internet Explorer 11 (IE11).
 Things that does not work:
 
 - Arrow functions 
-  - had to change to old function() functions
+  - changed to old `function()` functions
 - `{variable}` interpolation
-  - changed to old replace()
-- native Array.prototype.forEach()
-  - changed to $.each() from jQuery (good in the context)
-- native Array.replaceAll()
-  - changed to Array.replace(RegExp, string)
+  - changed to old `Array.prototype.replace()`
+- native `Array.prototype.forEach()`
+  - changed to `$.each()` from jQuery (good in the context)
+- native `String.prototype.replaceAll()`
+  - changed to `String.prototype.replace(RegExp, string)`
 
 The list is in construction...
 
