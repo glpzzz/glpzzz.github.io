@@ -2,7 +2,7 @@
 title: "The 75% keyboard layout"
 date: 2020-12-02
 description: "For those of you who don't know about the more compact keyboard layouts that exists out there"
-image: /assets/2020-12-02-75-percent-keyboard-layout.png
+image: https://glpzzz.is-a.dev/assets/2020-12-02-75-percent-keyboard-layout.png
 ---
 ![Vortex Race 3](https://i.redd.it/w4hr8572jcq01.jpg)
 
