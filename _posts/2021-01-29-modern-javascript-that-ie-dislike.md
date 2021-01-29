@@ -2,7 +2,7 @@
 title: "Modern JavaScript that Internet Explorer 11 dislikes"
 date: 2021-01-29
 description: "Things I have discovered when trying to run JavaScript code on IE11"
-image: https://apimania.netlify.app/api/txt2img?text=Modern%20JavaScript%20that%20IE%20dislikes&font=Fira%20Code&format=16:9
+image: https://apimania.netlify.app/api/txt2img?text=Modern%20JavaScript%20that%20Internet%20Explorer%2011%20dislikes&font=Fira%20Code&format=4:3
 ---
 Currently I was call to fix some issues on a website I "fixed" some weeks ago.
 Main thing was to update the theme (Wordpress). They had a lot of old stuff, 3rd
