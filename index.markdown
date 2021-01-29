@@ -6,7 +6,19 @@ title: Hello World!
 
 Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
 
-## Positions
+## Blogging
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+## About me
+
+### Positions
 
 * Current
     * CEO & Founder -> [Daxslab](https://www.daxslab.com)
@@ -15,7 +27,7 @@ Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [
 * Former
     * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://www.ucf.edu.cu)
 
-## My Tech Stack
+### My Tech Stack
 
 <ul class="list-inline">
     <li>Apache</li>
@@ -36,30 +48,20 @@ Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [
     <li>Yii PHP Framework</li>
 </ul>
 
-## Blogging
-
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
-
-## Currently using
+### Currently using
 
 * [Dell Inspiron 5523](https://www.dell.com/yu/business/p/inspiron-15z-5523/pd)
+* [Ajazz AK33 mechanical keyboard](http://www.a-jazz.com/en/h-pd-63.html)
 * [Ubuntu 20.04](https://www.ubuntu.com)
 * [dwm](https://dwm.suckless.org), ([my custom build](https://github.com/glpzzz/dwm))
 * [my dotfiles](https://github.com/glpzzz/dotfiles)
 
-## Other stuff I like
+### Other stuff I like
 
 * Eat
 * Films
 * Music
 * Skating
-
 
 <aside>
     <h2>Subscribe</h2>
