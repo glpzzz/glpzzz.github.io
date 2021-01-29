@@ -2,7 +2,7 @@
 title: "How to email error logs to developer on Yii2 apps"
 date: 2020-09-15
 description: "Use yii\\log\\EmailTarget to receive error messages/warnings from your Yii2 application directly in your inbox."
-image: /assets/yii2-email-error-logs.png
+image: https://glpzzz.is-a.dev/assets/yii2-email-error-logs.png
 ---
 Logging is a very important feature of the application. It let's you know what is happening in every moment. By default, Yii2 basic and advanced application have just a [\yii\log\FileTarget](https://www.yiiframework.com/doc/api/2.0/yii-log-filetarget) target configured.
 
