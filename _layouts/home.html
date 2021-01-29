@@ -26,6 +26,13 @@ layout: compress
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@glpzzz">
+    <meta name="twitter:creator" content="@glpzzz">
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
+
     <meta property="og:title" content="{{page.title}}">
     <meta property="og:site_name" content="{{site.title}}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
@@ -33,12 +40,6 @@ layout: compress
     <meta property="og:type" content="profile">
     <meta property="og:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@glpzzz">
-    <meta name="twitter:creator" content="@glpzzz">
-    <meta name="twitter:title" content="{{page.title}}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.image %}{{site.url}}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
 
     <style>
         body {
