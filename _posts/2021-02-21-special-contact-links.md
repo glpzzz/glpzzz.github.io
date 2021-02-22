@@ -20,7 +20,7 @@ More "complex" examples:
 - Specify the subject: `<a href="mailto:me@domain.com?subject=Hello">Send email</a>`
 - Specify the subject and body: `<a href="mailto:me@domain.com?subject=Hello&body=This%20is%20a%20message">Send email</a>`
 
-More details on [RFC 6068 - The 'mailto' URI Scheme](https://tools.ietf.org/html/rfc6068#section-6).
+More details on [RFC 6068 - The mailto URI Scheme](https://tools.ietf.org/html/rfc6068#section-6).
 
 ## SMS
 
@@ -30,7 +30,7 @@ A little different:
 - Open the SMS app for a certain number: `<a href="sms:+1-555-111-1111">Send SMS</a>`
 - Open the SMS app with custom message: `<a href="sms:+1-555-111-1111?body=I%20want%this%20product">Request Product</a>`
 
-More details on [RFC 5724 - URI Scheme for Global System for Mobile Communications Short Message Service (SMS)](https://tools.ietf.org/html/rfc5724#section-2.5)
+More details on [RFC 5724 - URI Scheme for Global System for Mobile Communications Short Message Service (SMS)](https://tools.ietf.org/html/rfc5724#section-2.5).
 
 ## Phone Calls
 
@@ -49,7 +49,7 @@ If you want the link to open a map in a certain location:
 
 - `<a href="geo:22.146147,-80.4426516">Our Office</a>`
 
-More details on [RFC 5870 - A Uniform Resource Identifier for Geographic Locations](https://tools.ietf.org/html/rfc5870#section-6.2)
+More details on [RFC 5870 - A Uniform Resource Identifier for Geographic Locations](https://tools.ietf.org/html/rfc5870#section-6.2).
 
 ## Conclusion
 
