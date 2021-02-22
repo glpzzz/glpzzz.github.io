@@ -1,11 +1,11 @@
 ---
-title: "Hello World!"
-description: "I'm Gabriel (glpzzz) and I'm a software engineer. Working at @daxslab and always looking for new business opportunities. Bootstrap, C++, C, CSS3, Docker, HTML5, Java, JavaScript, jQuery, MySQL, PHP, PostgreSQL, Python, Qt, Yii PHP Framework and more. Let me know if I can help you!"
+title: "Hello, I'm @glpzzz"
+description: "I'm Gabriel Alejandro López López (glpzzz) and I'm a software engineer. Working at @daxslab and always looking for new business opportunities. Bootstrap, C++, C, CSS3, Docker, HTML5, Java, JavaScript, jQuery, MySQL, PHP, PostgreSQL, Python, Qt, Yii PHP Framework and more. Let me know if I can help you!"
 ---
 
-![Picture of Gabriel Alejandro López López (glpzzz)](\glpzzz.jpg)
+<img class="glpzzz" src="/glpzzz.jpg" title="Picture of Gabriel Alejandro López López (glpzzz)" />
 
-Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
+I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
 
 ## Blogging
 
@@ -56,13 +56,6 @@ Hi, I’m Gabriel Alejandro López López. I’m a software engineer living in [
 * [Ubuntu 20.04](https://www.ubuntu.com)
 * [dwm](https://dwm.suckless.org), ([my custom build](https://github.com/glpzzz/dwm))
 * [my dotfiles](https://github.com/glpzzz/dotfiles)
-
-### Other stuff I like
-
-* Eat
-* Films
-* Music
-* Skating
 
 <aside>
     <h2>Subscribe</h2>

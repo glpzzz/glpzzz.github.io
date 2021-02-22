@@ -3,7 +3,7 @@ title: "Special links for our websites"
 date: 2021-02-21
 description: "How to use regular <a> links for custom tasks as calls, sms or
 email?"
-image: https://apimania.netlify.app/api/txt2img?text=Special%20links%20for%20our%20websites&font=Fira%20Code&format=4:3
+image: https://apimania.netlify.app/api/txt2img?text=Special%20links%20for%20our%20websites&font=Titillium%20Web&format=4:3
 ---
 Sometimes we need our links to do something else besides going to another http
 location. Perhaps we want to allow visitor to enable other ways to interact with

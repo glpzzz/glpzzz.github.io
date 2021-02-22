@@ -39,143 +39,86 @@ layout: compress
     <meta name="twitter:title" content="{{page.title}}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image" content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
-    
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/github-markdown.css" />
+
     <style>
-        body {
-            padding: 1em;
-            {% if page.is_post %}
-                padding-top: 3em;
-            {% endif %}
+        .markdown-body code {
+            font-family: "Fira Code", monospace;
         }
 
-        body,
-        input {
-            font-family: monospace;
-            font-size: 18px;
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 360px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem;
+            font-family: 'Titillium Web', sans-serif;
+            ;
+            font-size: 20px;
         }
 
-        input {
-            padding: 0.5em;
-        }
-
-        header>p {
-            color: rgb(128, 128, 128);
-            font-style: italic;
-        }
-
-        header>p:before {
-            content: "> "
-        }
-
-        .breadcrumbs {
-            padding: 0;
-            font-size: 85%;
-            margin: 0;
-            padding: 1em 1.5em;
-            background: #fff;
+        ol.breadcrumbs {
             position: fixed;
             top: 0;
-            left: 0;
+            background: #fff;
             width: 100%;
         }
 
-        .breadcrumbs>li {
-            display: inline;
-        }
-
-        .breadcrumbs>li:not(:last-child):after {
-            content: " / "
-        }
-
-        img {
-            width: 100%;
-        }
-
-        .list-inline {
+        ul.list-inline,
+        ol.breadcrumbs {
             padding: 0;
         }
 
-        .list-inline>li {
-            list-style: none;
-            display: inline;
+        ul.list-inline>li,
+        ol.breadcrumbs>li {
+            display: inline-block;
         }
 
-        .list-inline>li:not(:last-child):after {
-            content: ", ";
+        ul.list-inline>li:last-child:after {
+            content: "";
         }
 
-        .language-plaintext.highlighter-rouge {
-            overflow-x: auto;
-            background: rgb(245, 245, 245);
-            padding: 0 1em;
+        ul.list-inline>li:after {
+            content: " | "
         }
 
-        article>footer {
-            border-bottom: 1px solid rgb(128, 128, 128);
-            padding-bottom: 3em;
-            margin-bottom: 3em;
+        ol.breadcrumbs>li:after {
+            content: " > "
         }
 
-        ul.share-buttons {
-            list-style: none;
-            padding: 0;
+        ol.breadcrumbs>li:last-child:after {
+            content: "";
         }
 
-        ul.share-buttons li {
-            display: inline;
-        }
-
-        ul.share-buttons .sr-only {
-            position: absolute;
-            clip: rect(1px 1px 1px 1px);
-            clip: rect(1px, 1px, 1px, 1px);
-            padding: 0;
-            border: 0;
-            height: 1px;
-            width: 1px;
-            overflow: hidden;
-        }
-
-        /*@media(prefers-color-scheme: dark) {
-
-            body,
-            .breadcrumbs {
-                background: #000;
-                color: #fff;
+        @media (max-width: 767px) {
+            markdown-body {
+                padding: 1rem;
             }
+        }
 
-            a {
-                color: #0f0;
-            }
-
-            .language-plaintext.highlighter-rouge {
-                background: rgb(10, 10, 10);
-            }
-
-            input{
-              background: #000;
-              color: #0f0;
-              border-color: #0f0;
-            }
-        }*/
-
-        @media(min-width: 768px) {
-            body {
-                padding: 0 20%;
-                {% if page.is_post %}
-                    padding-top: 3em;
-                {% endif %}
-            }
-
-            img[src*='glpzzz.jpg'] {
-                width: 35%;
+        @media (min-width: 768px) {
+            img.glpzzz {
+                width: 50%;
                 float: right;
             }
 
-            .breadcrumbs{
-              padding: 1em 20.5%;
-            }
+            .markdown-body h1{font-size: 5rem;}
+            .markdown-body h2{font-size: 4rem;}
+            .markdown-body h3{font-size: 3rem;}
+            .markdown-body h4{font-size: 2rem;}
+        }
 
+        header>p {
+            font-style: italic;
+            color: #aaa;
+        }
+
+        header > p.description-page{
+          display: none;
         }
     </style>
 
@@ -193,15 +136,28 @@ layout: compress
                 "image": "https://glpzzz.is-a.dev/glpzzz.jpg",
                 "sameAs": [
                     "https://twitter.com/glpzzz",
+                    "https://t.me/glpzzz"
                     "https://www.linkedin.com/in/glpzzz",
-                    "https://github.com/glpzzz"
+                    "https://github.com/glpzzz",
+                    "https://angel.com/u/glpzzz",
+                    "https://instagram.com/glpzzz",
+                    "https://profile.codersrank.io/user/glpzzz",
+                    "https://dev.to/glpzzz",
+                    "https://join.skype.com/invite/swrMO6a3xWXv",
+                    "https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez"
                 ],
                 "jobTitle": "CEO & Founder",
                 "worksFor": {
                     "@type": "Organization",
                     "name": "Daxslab",
                     "url": "https://www.daxslab.com"
-                }
+                },
+                "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "contactType": "contact",
+                    "email": "glpz@daxslab.com",
+                    "url": "https://t.me/glpzzz"
+                }]
             }
         }
     </script>
@@ -237,14 +193,13 @@ layout: compress
             {% endif %}
 
             <header>
-                {% if page.image %}
-                <h1><img src="{{page.image}}" alt="{{page.title}}" /></h1>
-                {% else %}
                 <h1>{{page.title}}</h1>
+                <p class="{% if page.id %}description-post{% else %}description-page{% endif %}">
+                {% if page.date %}
+                  {{ page.date | date: '%B %d, %Y' }} - 
                 {% endif %}
-                {% if page.description %}
-                <p>{{ page.date | date: '%B %d, %Y' }} - {{ page.description }}</p>
-                {% endif %}
+
+                {{ page.description }}</p>
             </header>
 
             {{ content }}
