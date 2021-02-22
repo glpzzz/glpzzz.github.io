@@ -6,7 +6,7 @@ email?"
 image: https://apimania.netlify.app/api/txt2img?text=Special%20links%20for%20our%20websites&font=Fira%20Code&format=4:3
 ---
 Sometimes we need our links to do something else besides going to another http
-location. Perhaps we want to allow visitor to enable other ways to interact with
+location. Perhaps we want to allow visitor to use other ways to interact with
 us using email, sms, a call, or others. Let's se how to.
 
 ## Email
