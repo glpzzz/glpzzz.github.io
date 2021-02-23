@@ -9,6 +9,47 @@ layout: compress
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{page.title}} | {{site.title}}</title>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "headline": "{{page.title}}",
+            "url": "{{site.url}}{{page.url}}",
+            "image": "https://glpzzz.is-a.dev/glpzzz.jpg",
+            "author": {
+                "@type": "Person",
+                "name": "{{site.title}}",
+                "url": "{{site.url}}",
+                "image": "https://glpzzz.is-a.dev/glpzzz.jpg",
+                "sameAs": [
+                    "https://twitter.com/glpzzz",
+                    "https://t.me/glpzzz"
+                    "https://www.linkedin.com/in/glpzzz",
+                    "https://github.com/glpzzz",
+                    "https://angel.com/u/glpzzz",
+                    "https://instagram.com/glpzzz",
+                    "https://profile.codersrank.io/user/glpzzz",
+                    "https://dev.to/glpzzz",
+                    "https://join.skype.com/invite/swrMO6a3xWXv",
+                    "https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez"
+                ],
+                "jobTitle": "CEO & Founder",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Daxslab",
+                    "url": "https://www.daxslab.com"
+                },
+                "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "contactType": "contact",
+                    "email": "glpz@daxslab.com",
+                    "url": "https://t.me/glpzzz"
+                }]
+            }
+        }
+    </script>
+
     <meta name="author" content="{{site.title}}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{{site.title}}, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
@@ -55,17 +96,9 @@ layout: compress
             min-width: 360px;
             max-width: 900px;
             margin: 0 auto;
-            padding: 3rem;
+            padding: 1rem;
             font-family: 'Titillium Web', sans-serif;
-            ;
             font-size: 20px;
-        }
-
-        ol.breadcrumbs {
-            position: fixed;
-            top: 0;
-            background: #fff;
-            width: 100%;
         }
 
         ul.list-inline,
@@ -73,31 +106,34 @@ layout: compress
             padding: 0;
         }
 
-        ul.list-inline>li,
-        ol.breadcrumbs>li {
+        ul.list-inline > li,
+        ol.breadcrumbs > li {
             display: inline-block;
         }
 
-        ul.list-inline>li:last-child:after {
+        ul.list-inline > li:last-child:after {
             content: "";
         }
 
-        ul.list-inline>li:after {
+        ul.list-inline > li:after {
             content: " | "
         }
 
-        ol.breadcrumbs>li:after {
+        ol.breadcrumbs > li:after {
             content: " > "
         }
 
-        ol.breadcrumbs>li:last-child:after {
+        ol.breadcrumbs > li:last-child:after {
             content: "";
         }
 
-        @media (max-width: 767px) {
-            markdown-body {
-                padding: 1rem;
-            }
+        header > p {
+            font-style: italic;
+            color: #aaa;
+        }
+
+        header > p.description-page{
+          display: none;
         }
 
         @media (min-width: 768px) {
@@ -106,61 +142,13 @@ layout: compress
                 float: right;
             }
 
-            .markdown-body h1{font-size: 5rem;}
+            .markdown-body h1{font-size: 6rem;}
             .markdown-body h2{font-size: 4rem;}
             .markdown-body h3{font-size: 3rem;}
             .markdown-body h4{font-size: 2rem;}
         }
-
-        header>p {
-            font-style: italic;
-            color: #aaa;
-        }
-
-        header > p.description-page{
-          display: none;
-        }
     </style>
 
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "BlogPosting",
-            "headline": "{{page.title}}",
-            "url": "{{site.url}}{{page.url}}",
-            "image": "https://glpzzz.is-a.dev/glpzzz.jpg",
-            "author": {
-                "@type": "Person",
-                "name": "{{site.title}}",
-                "url": "{{site.url}}",
-                "image": "https://glpzzz.is-a.dev/glpzzz.jpg",
-                "sameAs": [
-                    "https://twitter.com/glpzzz",
-                    "https://t.me/glpzzz"
-                    "https://www.linkedin.com/in/glpzzz",
-                    "https://github.com/glpzzz",
-                    "https://angel.com/u/glpzzz",
-                    "https://instagram.com/glpzzz",
-                    "https://profile.codersrank.io/user/glpzzz",
-                    "https://dev.to/glpzzz",
-                    "https://join.skype.com/invite/swrMO6a3xWXv",
-                    "https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez"
-                ],
-                "jobTitle": "CEO & Founder",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Daxslab",
-                    "url": "https://www.daxslab.com"
-                },
-                "contactPoint": [{
-                    "@type": "ContactPoint",
-                    "contactType": "contact",
-                    "email": "glpz@daxslab.com",
-                    "url": "https://t.me/glpzzz"
-                }]
-            }
-        }
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics --->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118197695-3"></script>
