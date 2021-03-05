@@ -30,6 +30,8 @@ I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap
 
 ### My Tech Stack
 
+Most of the time I'm working with Apache, Bootstrap, C++, C, CSS3, Docker, HTML5, Java, JavaScript, jQuery, MySQL, PHP, PostgreSQL, Python, Qt, Yii PHP Framework and others and below Codersranks tell us who I'm doing it.
+
 ![Apache, Bootstrap, C++, C, CSS3, Docker, HTML5, Java, JavaScript, jQuery, MySQL, PHP, PostgreSQL, Python, Qt, Yii PHP Framework](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=glpzzz)
 
 ### Currently using
