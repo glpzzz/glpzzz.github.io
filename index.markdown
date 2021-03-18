@@ -3,7 +3,7 @@ title: "Hello, I'm @glpzzz"
 description: "I'm Gabriel Alejandro López López (glpzzz) and I'm a software engineer. Working at @daxslab and always looking for new business opportunities. Bootstrap, C++, C, CSS3, Docker, HTML5, Java, JavaScript, jQuery, MySQL, PHP, PostgreSQL, Python, Qt, Yii PHP Framework and more. Let me know if I can help you!"
 ---
 
-<img class="glpzzz" src="/glpzzz.jpg" title="Picture of Gabriel Alejandro López López (glpzzz)" />
+<img class="glpzzz" src="/glpzzz.jpg" title="Picture of Gabriel Alejandro López López (glpzzz)" width="699" height="699" style="width: 100%; height: auto; aspect-ratio:1/1;" />
 
 I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
 
