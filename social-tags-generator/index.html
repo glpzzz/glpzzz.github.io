@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Tags Generator | Gabriel Alejandro López López (glpzzz)</title>
+    <meta name="keywords" content="OpenGraph, meta tags, findability, Twitter, Facebook, SEO">
+    <meta name="description"
+          content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
+
+    <meta property="og:title" content="Social Tags Generator">
+    <meta property="og:url" content="https://glpzzz.is-a.dev/social-tags-generator">
+    <meta property="og:image"
+          content="https://apimania.netlify.app/api/txt2img?text=Social%20Tags%20Generator&font=Titillium%20Web&format=4:3">
+    <meta property="og:description"
+          content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
+
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Social Tags Generator">
+    <meta name="twitter:image"
+          content="https://apimania.netlify.app/api/txt2img?text=Social%20Tags%20Generator&font=Titillium%20Web&format=4:3">
+    <meta property="twitter:description"
+          content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
+
+    <link defer href="/assets/github-markdown.css" rel="stylesheet"/>
+    <style>
+        .markdown-body code {
+            font-family: "Fira Code", monospace;
+        }
+
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 360px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem;
+            font-family: monospace;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: .5em;
+        }
+
+        input, textarea {
+            display: block;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button{
+            margin-top: .5em;
+            font-size: 20px;
+        }
+
+        main > footer {
+            margin-top: 1em;
+        }
+
+    </style>
+</head>
+<body class="markdown-body">
+<main>
+
+    <header>
+        <h1>
+            Social Tags Generator <br>
+            <small>by <a href="https://twitter.com/glpzzz">@glpzzz</a></small>
+        </h1>
+    </header>
+
+    <section id="data">
+        <h2>Enter data here</h2>
+        <form id="form-data">
+            <div>
+                <label for="content-title">Title</label>
+                <input id="content-title" type="text" name="title" value="Social Tags Generator"/>
+            </div>
+            <div>
+                <label for="content-description">Description</label>
+                <textarea id="content-description" rows="3" name="description">Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!</textarea>
+            </div>
+            <div>
+                <label for="content-url">URL</label>
+                <input id="content-url" type="url" name="url" value="https://glpzzz.is-a.dev/social-tags-generator"/>
+            </div>
+            <div>
+                <label for="content-image">Image</label>
+                <input id="content-image" type="url" name="image"
+                       value="https://glpzzz.is-a.dev/social-tags-generator/logo.png"/>
+            </div>
+            <div>
+                <label for="content-keywords">Keywords</label>
+                <input id="content-keywords" type="text" name="keywords"
+                       value="OpenGraph, meta tags, findability, Twitter, Facebook, SEO"/>
+            </div>
+            <div>
+                <button type="submit">Generate</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <form action="">
+            <textarea name="" id="content-result" rows="25"></textarea>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2021 - Social Tags Generator by <a href="https://twitter.com/glpzzz">@glpzzz</a><br>
+        <small>A tool under <a href="https://glpzzz.is-a.dev">glpzzz.is-a.dev</a></small>
+    </footer>
+</main>
+
+<div id="content-template" type="text/html">
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:description" content="">
+
+</div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        var mappings = {
+            '#content-title': [
+                'title', 'meta[property="og:title"]', 'meta[name="twitter:title"]',
+            ],
+            '#content-keywords': [
+                'meta[name="keywords"]',
+            ],
+            '#content-description': [
+                'meta[name="description"]', 'meta[property="og:description"]', 'meta[name="twitter:description"]',
+            ],
+            '#content-url': [
+                'meta[property="og:url"]', 'meta[name="twitter:url"]',
+            ],
+            '#content-image': [
+                'meta[property="og:image"]', 'meta[name="twitter:image"]',
+            ],
+        };
+
+        var form = document.querySelector('#form-data');
+        form.addEventListener('submit', function (e) {
+
+            console.log('EXECUTED');
+
+            e.preventDefault();
+            for (var source_selector in mappings) {
+                var source = document.querySelector(source_selector);
+                console.log("SOURCE:", source);
+                mappings[source_selector].forEach(function (target_selector) {
+                    var target = document.querySelector('#content-template > ' + target_selector);
+                    console.log("TARGET:", document.querySelector(target_selector));
+                    if (target) {
+                        if (target.nodeName === 'META') {
+                            target.setAttribute('content', source.value);
+                            console.log('should have changed: ', target.getAttribute('content'));
+                        } else {
+                            target.innerHtml = source.value;
+                            console.log('should have changed: ', target.innerHtml);
+                        }
+                    }
+                });
+            }
+
+            console.log(document.querySelector('#content-template').innerHTML);
+            document.querySelector('#content-result').value = document.querySelector('#content-template').innerHTML;
+        });
+
+
+    });
+
+</script>
+
+</body>
+</html>
