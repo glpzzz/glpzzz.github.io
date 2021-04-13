@@ -1,6 +1,6 @@
 ---
 title: "New tool: Social Tags Generator"
-date: 2021-02-21
+date: 2021-04-12
 description: "I have a new personal tool. A generator for social tags: OpenGraph and Twitter Cards. Hope you also find it useful."
 image: https://apimania.netlify.app/api/txt2img?text=New%20Tool:Social%20Tags%20Generator&font=Titillium%20Web&format=4:3
 ---
