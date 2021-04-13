@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <title>Social Tags Generator | Gabriel Alejandro López López (glpzzz)</title>
     <meta name="keywords" content="OpenGraph, meta tags, findability, Twitter, Facebook, SEO">
-    <meta name="description"
-          content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
-
-    <meta name="keywords" content="OpenGraph, meta tags, findability, Twitter, Facebook, SEO">
     <meta name="description" content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
 
     <meta property="og:title" content="Social Tags Generator">
     <meta property="og:url" content="https://glpzzz.is-a.dev/social-tags-generator">
-    <meta property="og:image" content="https://glpzzz.is-a.dev/social-tags-generator/logo.png">
+    <meta property="og:image" content="https://apimania.netlify.app/api/txt2img?text=Social%20Tags%20Generator&font=Titillium%20Web&format=4:3">
     <meta property="og:description" content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
 
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@glpzzz">
+    <meta name="twitter:site" content="@glpzzz">
     <meta name="twitter:title" content="Social Tags Generator">
-    <meta name="twitter:image" content="https://glpzzz.is-a.dev/social-tags-generator/logo.png">
+    <meta name="twitter:image" content="https://apimania.netlify.app/api/txt2img?text=Social%20Tags%20Generator&font=Titillium%20Web&format=4:3">
     <meta name="twitter:description" content="Generate the OpenGraph and Twitter Card metatags for your webpages by filling a simple form. Schema.org to come. Enjoy!">
 
     <link defer href="/assets/github-markdown.css" rel="stylesheet"/>
@@ -86,12 +84,22 @@
             <div>
                 <label for="content-image">Image</label>
                 <input id="content-image" type="url" name="image"
-                       value="https://glpzzz.is-a.dev/social-tags-generator/logo.png"/>
+                       value="https://apimania.netlify.app/api/txt2img?text=Social%20Tags%20Generator&font=Titillium%20Web&format=4:3"/>
             </div>
             <div>
                 <label for="content-keywords">Keywords</label>
                 <input id="content-keywords" type="text" name="keywords"
                        value="OpenGraph, meta tags, findability, Twitter, Facebook, SEO"/>
+            </div>
+            <div>
+                <label for="content-twitter-site">Twitter Site</label>
+                <input id="content-twitter-site" type="text" name="twitter-site"
+                       value="@glpzzz"/>
+            </div>
+            <div>
+                <label for="content-twitter-creator">Twitter Creator</label>
+                <input id="content-twitter-creator" type="text" name="twitter-creator"
+                       value="@glpzzz"/>
             </div>
             <div>
                 <button type="submit">Generate</button>
@@ -119,13 +127,15 @@
 
     <meta property="og:title" content="">
     <meta property="og:url" content="">
-    <meta property="og:image" content="">
     <meta property="og:description" content="">
+    <meta property="og:image" content="">
 
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
     <meta name="twitter:title" content="">
-    <meta name="twitter:image" content="">
     <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
 
 </div>
 
@@ -148,6 +158,12 @@
             ],
             '#content-image': [
                 'meta[property="og:image"]', 'meta[name="twitter:image"]',
+            ],
+            '#content-twitter-site': [
+                'meta[name="twitter:site"]',
+            ],
+            '#content-twitter-creator': [
+                'meta[name="twitter:creator"]',
             ],
         };
 
