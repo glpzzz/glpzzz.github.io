@@ -2,7 +2,7 @@
 title: Save time integrating git with pass
 date: 2020-01-18
 description: "Use this recipe to save time if you continuosly are using git online services as Gitlab, Github, Bitbucket. You just need to remember one password and enter it once per session."
-image: https://glpzzz.is-a.dev/assets/git-pass-integration.png
+image: https://apimania.netlify.app/api/txt2img?text=Save%20time%20integrating%20git%20with%20pass&font=Titillium%20Web&format=4:3
 ---
 Git push has been very frequent lately, almost always associated with some [opensource projects](https://github.com/daxslab) in which I have been participating. And having to enter the username and password every time I go to do a push, it already made me tedious and boring. Some solution has to exist.
 
