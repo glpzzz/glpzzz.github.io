@@ -19,14 +19,7 @@ I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap
 
 ## About me
 
-### Positions
-
-* Current
-    * CEO & Founder -> [Daxslab](https://www.daxslab.com)
-    * Marketing & Sales instructor ->
-[CubaEmprende](https://www.cubaemprendecienfuegos.org)
-* Former
-    * Professor (Web Development, Data Structures) -> [Universidad de Cienfuegos](https://www.ucf.edu.cu)
+If you're interested, my full CV is [here](/cv). 
 
 ### My Tech Stack
 
