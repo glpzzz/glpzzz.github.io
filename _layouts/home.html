@@ -99,6 +99,11 @@ layout: compress
             font-family: 'Titillium Web', sans-serif;
             font-size: 20px;
         }
+
+        .markdown-body .highlight pre, .markdown-body pre {
+            font-size: 75%;
+            font-family: "Fira Code", monospace;
+        }
         
         .markdown-body img {
             width: 100%;
@@ -152,6 +157,26 @@ layout: compress
             .markdown-body h2{font-size: 4rem;}
             .markdown-body h3{font-size: 3rem;}
             .markdown-body h4{font-size: 2rem;}
+        }
+
+
+        @media (prefers-color-scheme: dark) {
+          a{
+            color: rgb(88, 166, 255);
+          }
+
+          a:hover{
+            text-decoration: underline;
+          }
+
+          .markdown-body{
+            background: rgb(13, 17, 23);
+            color: rgb(201, 209, 217);
+          }
+
+          .markdown-body pre{
+            background: rgb(22, 27, 34);
+          }
         }
     </style>
 
