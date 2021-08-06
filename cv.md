@@ -1,385 +1,116 @@
----
-title: "Gabriel Alejandro López Lopez"
-description: "My updated CV"
+---	
+title: Gabriel Alejandro López López
 ---
 
-<h2>Software Engineer</h2>
-<section id="basics">
-	<div class="contact">
-	<div class="website">
-		<strong>Website</strong>
-		http://glpzzz.is-a.dev
-	</div>
-	<div class="email">
-		<strong>Email</strong>
-		glpz@daxslab.com
-	</div>
-	<div class="phone">
-		<strong>Phone</strong>
-		+5358074332
-	</div>
-	</div>
-	<div class="summary">
-		<p>Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he have based most of my work as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people&#x27;s lives, a goal that he have been pursuing at Daxslab.</p>
-	</div>
-	<h3>Location</h3>
-	<section id="location">
-		<div class="postalCode">
-			<strong>Postal code</strong>
-			55100
-		</div>
-		<div class="city">
-			<strong>City</strong>
-			Cienfuegos
-		</div>
-		<div class="countryCode">
-			<strong>Country code</strong>
-			CU
-		</div>
-		<div class="region">
-			<strong>Region</strong>
-			Cienfuegos
-		</div>
-	</section>
-	<h3>Profiles</h3>
-	<section id="profiles">
-		<div class="item">
-			<strong class="network">
-				Github
-			</strong>
-			<div class="username">
-				glpzzz
-			</div>
-			<div class="url">
-				<a href="https://github.com/glpzzz">Link</a>
-			</div>
-		</div>
-		<div class="item">
-			<strong class="network">
-				Stack Overflow
-			</strong>
-			<div class="username">
-				glpzzz
-			</div>
-			<div class="url">
-				<a href="https://stackoverflow.com/users/12115958">Link</a>
-			</div>
-		</div>
-		<div class="item">
-			<strong class="network">
-				LinkedIn
-			</strong>
-			<div class="username">
-				glpzzz
-			</div>
-			<div class="url">
-				<a href="https://www.linkedin.com/in/glpzzz">Link</a>
-			</div>
-		</div>
-		<div class="item">
-			<strong class="network">
-				Twitter
-			</strong>
-			<div class="username">
-				glpzzz
-			</div>
-			<div class="url">
-				<a href="https://twitter.com/glpzzz">Link</a>
-			</div>
-		</div>
-	</section>
-</section>
-<section id="work">
-	<h2>Work</h2>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">CEO &amp; Co-Founder at</span>
-		    	<a class="website" href="https://www.daxslab.com">Daxslab</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2014-05-31
-			</span>
-			<span class="endDate">
-				- Present
-			</span>
-		</div>
-		<div class="summary">
-			<p>Software engineering and development micro-company specialized in applying agile methodologies for web, mobile and desktop projects. With the shortest delivery times, what is essential for us is that you get the results you are looking for in the minimum time and at the lowest possible cost: we only build what is essential at any given time. We love to share our ideas. We believe that the free and open source software movements have opened the way to high quality agile software development. For that reason we feel the need to contribute to the community with the same quality that we have received.</p>
-		</div>
-		<ul class="highlights">
-			<li>General management</li>
-			<li>Customer service</li>
-			<li>Engineering</li>
-			<li>Development</li>
-		</ul>
-	</div>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">Fullstack Web Developer at</span>
-		    	<a class="website" href="https://www.techniqueweb.com">TechniqueWeb</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2020-04-30
-			</span>
-			<span class="endDate">
-				- Present
-			</span>
-		</div>
-		<ul class="highlights">
-			<li>PHP</li>
-			<li>Yii PHP Framework</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Javascript</li>
-			<li>Bootstrap</li>
-		</ul>
-	</div>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">Instructor/Consultant at</span>
-		    	<a class="website" href="https://www.proyectocubaemprende.org">CubaEmprende</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2015-04-30
-			</span>
-			<span class="endDate">
-				- Present
-			</span>
-		</div>
-		<div class="summary">
-			<p>Teaching the &#x27;Marketing and Administration&#x27; and &#x27;Sales and Customer Service&#x27; modules of the Taller Emprende. I also provide especilized advice to entrepreneurs in these areas.</p>
-		</div>
-		<ul class="highlights">
-			<li>Marketing</li>
-			<li>Management</li>
-			<li>Sales</li>
-			<li>Customer Service</li>
-		</ul>
-	</div>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">Host at</span>
-		    	<a class="website" href="https://www.marilopehostal.com">Marilope Hostal</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2016-11-30
-			</span>
-			<span class="endDate">
-				- 2020-03-15
-			</span>
-		</div>
-		<div class="summary">
-			<p>Receiving guests from all over the world and helping them to experience and enjoy the best of Cienfuegos city</p>
-		</div>
-	</div>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">Senior web developer at</span>
-		    	<a class="website" href="https://www.tenniscall.com">TennisCall</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2019-01-31
-			</span>
-			<span class="endDate">
-				- 2020-04-30
-			</span>
-		</div>
-		<div class="summary">
-			<p>Fullstack web developer for TennisCall.com improving players profiles and adding features like court management and local leagues, among others.</p>
-		</div>
-		<ul class="highlights">
-			<li>PHP</li>
-			<li>Yii PHP Framework</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Javascript</li>
-			<li>Bootstrap</li>
-		</ul>
-	</div>
-	<div class="item">
-		<h3 class="name">
-		    	<span class="position">Professor at</span>
-		    	<a class="website" href="https://ucf.edu.cu">Universidad de Cienfuegos Carlos Rafael Rodríguez</a>
-		</h3>
-		<div class="date">
-			<span class="startDate">
-				2012-09-30
-			</span>
-			<span class="endDate">
-				- 2015-08-31
-			</span>
-		</div>
-		<div class="summary">
-			<p>Professor of Data Structures 1 and Data Structures 2 (Java), Business Application Development (Java) and Web Programming (PHP). Trained students for competitive programming contests.</p>
-		</div>
-		<ul class="highlights">
-			<li>Java</li>
-			<li>PHP</li>
-			<li>Qt</li>
-			<li>C++</li>
-		</ul>
-	</div>
-</section>
-<section id="volunteer">
-	<h2>Volunteer</h2>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			University of Havana
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2020-03-31
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Working on Covid19 Cubatadata dashboard.
-        </p>
-		<p class="website"><a href="https://covid19cubadata.github.io">https://covid19cubadata.github.io</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Architect at</span>
-			TODO Devs
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2019-12-31
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Flutter application to improve the experience of the users when using USSD codes for services provided by ETECSA telecomms operator in Cuba.
-        </p>
-		<p class="website"><a href="https://github.com/todo-devs/todo">https://github.com/todo-devs/todo</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			CubaWeather
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2019-12-31
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Developing Cuba Weather platform.
-        </p>
-		<p class="website"><a href="https://cubaweather.app">https://cubaweather.app</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			Daxslab
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2019-08-19
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Yii2 CMS module to implement a website.
-        </p>
-		<p class="website"><a href="https://github.com/daxslab/yii2-website-module">https://github.com/daxslab/yii2-website-module</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Maintaner at</span>
-			Cuban Opensource
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2019-06-15
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Awesome list of Cuban open source projects. Just to know what is being openly developed in Cuba...
-        </p>
-		<p class="website"><a href="https://github.com/cuban-opensourcers/cuban-opensource">https://github.com/cuban-opensourcers/cuban-opensource</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			Daxslab
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2018-01-09
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Yii2 component to generate image thumnails of any size.
-        </p>
-		<p class="website"><a href="https://github.com/daxslab/yii2-thumbnailer">https://github.com/daxslab/yii2-thumbnailer</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			Daxslab
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2017-12-25
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Automates file uploading for every attribute tagged with file or image validation rule. It also configures the way that filename should be renamed and stored in database as attribute value.
-        </p>
-		<p class="website"><a href="https://github.com/daxslab/yii2-uploader-behavior">https://github.com/daxslab/yii2-uploader-behavior</a></p>
-	</div>
-	<div class="item">
-		<h3 class="company">
-		    	<span class="position">Software Developer at</span>
-			Daxslab
-		</h3>
-		<p class="summary">
-		    <em class="date">
-		    	<span class="startDate">
-		    		2017-12-24
-		    	</span>
-		    	<span class="endDate">
-		    		- Present
-		    	</span>
-		    	: 
-		    </em>
-                Extension to help setup the standard HTML meta tags besides the ones defined by Opengraph and TwitterCard to contribute to website SEO.
-        </p>
-		<p class="website"><a href="https://github.com/daxslab/yii2-taggedview">https://github.com/daxslab/yii2-taggedview</a></p>
-	</div>
-</section>
+
+# Gabriel Alejandro López López
+## Software Engineer
+
+**Website:** http://glpzzz.is-a.dev
+**Email:** glpz@daxslab.com
+**Phone:** +5358074332
+
+Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he have based most of my work as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people&#x27;s lives, a goal that he have been pursuing at Daxslab.
+
+### Location
+**Address:** 4924, 56th Avenue
+**Postal code:** 55100
+**City:** Cienfuegos
+**Country code:** CU
+**Region:** Cienfuegos
+
+### Profiles
+Github
+glpzzz
+https://github.com/glpzzz
+Stack Overflow
+glpzzz
+https://stackoverflow.com/users/12115958
+LinkedIn
+glpzzz
+https://www.linkedin.com/in/glpzzz
+Twitter
+glpzzz
+https://twitter.com/glpzzz
+## Work
+
+### CEO &amp; Co-Founder at [Daxslab](https://www.daxslab.com)
+__2014 - Present__: Software engineering and development micro-company specialized in applying agile methodologies for web, mobile and desktop projects. With the shortest delivery times, what is essential for us is that you get the results you are looking for in the minimum time and at the lowest possible cost: we only build what is essential at any given time. We love to share our ideas. We believe that the free and open source software movements have opened the way to high quality agile software development. For that reason we feel the need to contribute to the community with the same quality that we have received.
+- General management
+- Customer service
+- Engineering
+- Development
+
+### Fullstack Web Developer at [TechniqueWeb](https://www.techniqueweb.com)
+__2020 - Present__
+- PHP
+- Yii PHP Framework
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+
+### Instructor/Consultant at [CubaEmprende](https://www.proyectocubaemprende.org)
+__2015 - Present__: Teaching the &#x27;Marketing and Administration&#x27; and &#x27;Sales and Customer Service&#x27; modules of the Taller Emprende. I also provide especilized advice to entrepreneurs in these areas.
+- Marketing
+- Management
+- Sales
+- Customer Service
+
+### Host at [Marilope Hostal](https://www.marilopehostal.com)
+__2016 - 2020__: Receiving guests from all over the world and helping them to experience and enjoy the best of Cienfuegos city
+
+### Senior web developer at [TennisCall](https://www.tenniscall.com)
+__2019 - 2020__: Fullstack web developer for TennisCall.com improving players profiles and adding features like court management and local leagues, among others.
+- PHP
+- Yii PHP Framework
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+
+### Professor at [Universidad de Cienfuegos Carlos Rafael Rodríguez](https://ucf.edu.cu)
+__2012-09-30 - 2015__: Professor of Data Structures 1 and Data Structures 2 (Java), Business Application Development (Java) and Web Programming (PHP). Trained students for competitive programming contests.
+- Java
+- PHP
+- Qt
+- C++
+
+## Volunteer & Open source
+
+
+### Software Developer at University of Havana
+__2020-03-31 - Present__: Working on Covid19 Cubatadata dashboard.
+[https://covid19cubadata.github.io](https://covid19cubadata.github.io)
+
+### Architect at TODO Devs
+__2019-12-31 - Present__: Flutter application to improve the experience of the users when using USSD codes for services provided by ETECSA telecomms operator in Cuba.
+[https://github.com/todo-devs/todo](https://github.com/todo-devs/todo)
+
+### Software Developer at CubaWeather
+__2019-12-31 - Present__: Developing Cuba Weather platform.
+[https://cubaweather.app](https://cubaweather.app)
+
+### Software Developer at Daxslab
+__2019-08-19 - Present__: Yii2 CMS module to implement a website.
+[https://github.com/daxslab/yii2-website-module](https://github.com/daxslab/yii2-website-module)
+
+### Maintaner at Cuban Opensource
+__2019-06-15 - Present__: Awesome list of Cuban open source projects. Just to know what is being openly developed in Cuba...
+[https://github.com/cuban-opensourcers/cuban-opensource](https://github.com/cuban-opensourcers/cuban-opensource)
+
+### Software Developer at Daxslab
+__2018-01-09 - Present__: Yii2 component to generate image thumnails of any size.
+[https://github.com/daxslab/yii2-thumbnailer](https://github.com/daxslab/yii2-thumbnailer)
+
+### Software Developer at Daxslab
+__2017-12-25 - Present__: Automates file uploading for every attribute tagged with file or image validation rule. It also configures the way that filename should be renamed and stored in database as attribute value.
+[https://github.com/daxslab/yii2-uploader-behavior](https://github.com/daxslab/yii2-uploader-behavior)
+
+### Software Developer at Daxslab
+__2017-12-24 - Present__: Extension to help setup the standard HTML meta tags besides the ones defined by Opengraph and TwitterCard to contribute to website SEO.
+[https://github.com/daxslab/yii2-taggedview](https://github.com/daxslab/yii2-taggedview)
+
 <section id="education">
 	<h2>Education</h2>
     <ul>
@@ -808,4 +539,3 @@ Constamente está investigando, desarrollando soluciones y capacitando para que 
 		</div>
 	</div>
 </section>
-	
