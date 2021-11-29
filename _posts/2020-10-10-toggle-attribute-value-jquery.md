@@ -23,7 +23,7 @@ $('thebutton').click(function(){
 });
 ```
 
-## Short version version
+## Short version
 
 My original answer was...
 
@@ -43,7 +43,7 @@ I still had the doubt if this could be done easier, and find the next way thanks
 ```javascript
 $('thebutton').click(function(){
    $('thetextarea').attr('rows',  function(index, attr){
-       return attr = 1 ? 5 : 1;
+       return attr == 1 ? 5 : 1;
    });
 });
 ```
