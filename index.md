@@ -5,7 +5,7 @@ description: "I'm Gabriel Alejandro López López (glpzzz) and I'm a software en
 
 <img class="glpzzz" src="/glpzzz.jpg" title="Picture of Gabriel Alejandro López López (glpzzz)" width="699" height="699" />
 
-I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something.
+I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something. My full CV [here](cv).
 
 ## Blogging
 
