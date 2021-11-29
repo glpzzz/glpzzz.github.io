@@ -151,6 +151,11 @@ layout: compress
             content: "";
         }
 
+        header > p.description-post {
+          font-style: italic;
+          color: #8D8F92;
+        }
+        
         header > p.description-page {
             display: none;
         }
@@ -214,7 +219,6 @@ layout: compress
                 {% if page.date %}
                 {{ page.date | date: '%B %d, %Y' }} -
                 {% endif %}
-
                 {{ page.description }}</p>
         </header>
 
