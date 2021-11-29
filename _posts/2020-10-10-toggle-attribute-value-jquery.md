@@ -10,7 +10,7 @@ I just came across a very simple [question on StackOverflow](https://stackoverfl
 
 This is the explanatory version I created when the author of the question requested for an explanation of my original code. Most of the comments are obvious.
 
-```
+```javascript
 $('thebutton').click(function(){
    var currentRows = $('thetextarea').attr('rows'); //obtain the current number of rows in the textarea
    var newRows; //declare a variable to hold the new number of rows
@@ -27,7 +27,7 @@ $('thebutton').click(function(){
 
 My original answer was...
 
-```
+```javascript
 //short version, the one in the answer
 $('thebutton').click(function(){
    $('thetextarea').attr('rows',  $('thetextarea').attr('rows')==1?5:1);
@@ -40,7 +40,7 @@ I've created a [gist](https://gist.github.com/glpzzz/762afe32e8c245216869e9b1bd0
 
 I still had the doubt if this could be done easier, and find the next way thanks to this [answer](https://stackoverflow.com/questions/18665031/how-to-toggle-attr-in-jquery/18665152#18665152):
 
-```
+```javascript
 $('thebutton').click(function(){
    $('thetextarea').attr('rows',  function(index, attr){
        return attr = 1 ? 5 : 1;
@@ -48,4 +48,4 @@ $('thebutton').click(function(){
 });
 ```
 
-Just learnt a new thing today. I can sleep easy.
+Just learnt a new thing today. I can sleep in peace.

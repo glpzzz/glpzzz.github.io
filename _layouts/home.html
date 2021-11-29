@@ -32,7 +32,7 @@ layout: compress
                     "https://profile.codersrank.io/user/glpzzz",
                     "https://dev.to/glpzzz",
                     "https://join.skype.com/invite/swrMO6a3xWXv",
-                    "https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez"
+                    "https://stackoverflow.com/users/12115958/"
                 ],
                 "jobTitle": "CEO & Founder",
                 "worksFor": {
@@ -40,22 +40,27 @@ layout: compress
                     "name": "Daxslab",
                     "url": "https://www.daxslab.com"
                 },
-                "contactPoint": [{
-                    "@type": "ContactPoint",
-                    "contactType": "contact",
-                    "email": "glpz@daxslab.com",
-                    "url": "https://t.me/glpzzz"
-                }]
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "contactType": "contact",
+                        "email": "glpz@daxslab.com",
+                        "url": "https://t.me/glpzzz"
+                    }
+                ]
             }
         }
     </script>
 
     <meta name="author" content="{{site.title}}">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{{site.title}}, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
+    <meta name="description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords"
+          content="{{site.title}}, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
     <meta name="robots" content="follow">
-    <link href="{{site.url}}/feed.xml" type="application/rss+xml" rel="alternate" title="Gabriel's latest 10 blog posts (atom)" />
-    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <link href="{{site.url}}/feed.xml" type="application/rss+xml" rel="alternate"
+          title="Gabriel's latest 10 blog posts (atom)"/>
+    <link rel="canonical" href="{{site.url}}{{page.url}}"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -70,20 +75,29 @@ layout: compress
     <meta property="og:title" content="{{page.title}}">
     <meta property="og:site_name" content="{{site.title}}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
+    <meta property="og:image"
+          content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@glpzzz">
     <meta name="twitter:creator" content="@glpzzz">
     <meta name="twitter:title" content="{{page.title}}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
+    <meta name="twitter:description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image"
+          content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.is-a.dev/glpzzz.jpg{% endif %}">
 
-    <link defer href="/assets/github-markdown.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link defer href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Titillium+Web:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
+          integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
 
     <style>
         .markdown-body code {
@@ -93,18 +107,19 @@ layout: compress
         .markdown-body {
             box-sizing: border-box;
             min-width: 360px;
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 1rem;
-            font-family: 'Titillium Web', sans-serif;
+            padding: 1rem 1rem;
+            font-family: 'Fira Sans', sans-serif;
             font-size: 20px;
         }
 
         .markdown-body .highlight pre, .markdown-body pre {
             font-size: 75%;
             font-family: "Fira Code", monospace;
+            background: #EEE;
         }
-        
+
         .markdown-body img {
             width: 100%;
             height: auto;
@@ -136,44 +151,28 @@ layout: compress
             content: "";
         }
 
-        header > p {
-            font-style: italic;
-            color: #aaa;
-        }
-
-        header > p.description-page{
-          display: none;
+        header > p.description-page {
+            display: none;
         }
 
         @media (min-width: 768px) {
             img.glpzzz {
-                width: 50%;
                 height: auto;
                 aspect-ratio: 1/1;
+                width: 40%;
                 float: right;
             }
 
-            .markdown-body h1{font-size: 6rem;}
-            .markdown-body h2{font-size: 4rem;}
-            .markdown-body h3{font-size: 3rem;}
-            .markdown-body h4{font-size: 2rem;}
+
         }
 
+        @media print {
 
-        @media (prefers-color-scheme: dark) {
-          a{
-            color: rgb(88, 166, 255);
-          }
-
-          .markdown-body{
-            background: rgb(13, 17, 23);
-            color: rgb(201, 209, 217);
-          }
-
-          .markdown-body .highlight pre, .markdown-body pre {
-            background: rgb(22, 27, 34);
-          }
+            body.markdown-body > footer {
+                display: none;
+            }
         }
+
     </style>
 
 
@@ -185,6 +184,7 @@ layout: compress
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-118197695-3');
@@ -192,66 +192,98 @@ layout: compress
 </head>
 
 <body class="markdown-body">
-    <main>
-        <article>
-            {% if page.is_post %}
-            <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a itemprop="item" title="Hello World!" href="/"><span itemprop="name">home</span></a>
-                    <meta itemprop="position" content="1" />
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <span itemprop="name">{{page.title}}</span>
-                    <meta itemprop="position" content="2" />
-                </li>
-            </ol>
-            {% endif %}
 
-            <header>
-                <h1>{{page.title}}</h1>
-                <p class="{% if page.id %}description-post{% else %}description-page{% endif %}">
+<main>
+    <article>
+        {% if page.is_post %}
+        <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" title="Hello World!" href="/"><span itemprop="name">home</span></a>
+                <meta itemprop="position" content="1"/>
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <span itemprop="name">{{page.title}}</span>
+                <meta itemprop="position" content="2"/>
+            </li>
+        </ol>
+        {% endif %}
+
+        <header>
+            <h1>{{page.title}}</h1>
+            <p class="{% if page.id %}description-post{% else %}description-page{% endif %}">
                 {% if page.date %}
-                  {{ page.date | date: '%B %d, %Y' }} - 
+                {{ page.date | date: '%B %d, %Y' }} -
                 {% endif %}
 
                 {{ page.description }}</p>
-            </header>
+        </header>
 
-            {{ content }}
+        {{ content }}
 
-            {% if page.is_post %}
-            <footer>
-                <h2>Liked? Share this!</h2>
-                <ul class="share-buttons" data-source="simplesharingbuttons.com">
-                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fglpzzz.is-a.dev&quote=" target="_blank" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;">Facebook</a></li>
-                    <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fglpzzz.is-a.dev&text=:%20http%3A%2F%2Fglpzzz.is-a.dev&via=glpzzz" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">Twitter</a></li>
-                    <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fglpzzz.is-a.dev&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">Reddit</a></li>
-                    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fglpzzz.is-a.dev&title=&summary=&source=http%3A%2F%2Fglpzzz.is-a.dev" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">LinkedIn</a></li>
-                </ul>
+        {% if page.is_post %}
+        <footer>
+            <h2>Liked? Share this!</h2>
+            <ul class="share-buttons list-inline" data-source="simplesharingbuttons.com">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fglpzzz.is-a.dev&quote="
+                       target="_blank" title="Share on Facebook"
+                       onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fglpzzz.is-a.dev&text=:%20http%3A%2F%2Fglpzzz.is-a.dev&via=glpzzz"
+                       target="_blank" title="Tweet"
+                       onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">Twitter</a>
+                </li>
+                <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fglpzzz.is-a.dev&title=" target="_blank"
+                       title="Submit to Reddit"
+                       onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">Reddit</a>
+                </li>
+                <li>
+                    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fglpzzz.is-a.dev&title=&summary=&source=http%3A%2F%2Fglpzzz.is-a.dev"
+                       target="_blank" title="Share on LinkedIn"
+                       onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">LinkedIn</a>
+                </li>
+            </ul>
 
-                <h2>Keep reading</h2>
-                <ul>
-                    {% if page.next %}<li><strong>Next:</strong> <a href="{{page.next.url}}">{{page.next.title}}</a></li>{% endif %}
-                    {% if page.previous %}<li><strong>Previous:</strong> <a href="{{page.previous.url}}">{{page.previous.title}}</a></li>{% endif %}
-                </ul>
-            </footer>
-            {% endif %}
+            <h2>Keep reading</h2>
+            <ul>
+                {% if page.next %}
+                <li><strong>Next:</strong> <a href="{{page.next.url}}">{{page.next.title}}</a></li>
+                {% endif %}
+                {% if page.previous %}
+                <li><strong>Previous:</strong> <a href="{{page.previous.url}}">{{page.previous.title}}</a></li>
+                {% endif %}
+            </ul>
+        </footer>
+        {% endif %}
 
-        </article>
-    </main>
-    <footer>
-        <h2>Contact me</h2>
-        <ul class="list-inline">
-            <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="me noopener">CodersRank</a></li>
-            <li><a href="https://dev.to/glpzzz" target="_blank" rel="me noopener">DEV</a></li>
-            <li><a href="https://github.com/glpzzz" target="_blank" rel="me noopener">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/glpzzz" target="_blank" rel="me noopener">LinkedIn</a></li>
-            <li><a href="https://join.skype.com/invite/swrMO6a3xWXv" target="_blank" rel="me noopener">Skype</a></li>
-            <li><a href="https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez" target="_blank" rel="me noopener">StackOverflow</a></li>
-            <li><a href="https://t.me/glpzzz" target="_blank" rel="me noopener">Telegram</a></li>
-            <li><a href="https://twitter.com/glpzzz" target="_blank" rel="me noopener">Twitter</a></li>
-        </ul>
-    </footer>
+    </article>
+</main>
+<footer>
+    <h2 id="contact-me">Contact me</h2>
+    <ul class="list-inline">
+        <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="me noopener">CodersRank</a></li>
+        <li><a href="https://dev.to/glpzzz" target="_blank" rel="me noopener">DEV</a></li>
+        <li><a href="https://github.com/glpzzz" target="_blank" rel="me noopener">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/glpzzz" target="_blank" rel="me noopener">LinkedIn</a></li>
+        <li><a href="https://join.skype.com/invite/swrMO6a3xWXv" target="_blank" rel="me noopener">Skype</a></li>
+        <li><a href="https://stackoverflow.com/users/12115958/gabriel-a-l%c3%b3pez-l%c3%b3pez" target="_blank"
+               rel="me noopener">StackOverflow</a></li>
+        <li><a href="https://t.me/glpzzz" target="_blank" rel="me noopener">Telegram</a></li>
+        <li><a href="https://twitter.com/glpzzz" target="_blank" rel="me noopener">Twitter</a></li>
+    </ul>
+    <h3>Subscribe</h3>
+    <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
+          onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=glpzzz', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <p>
+            <input type="text" style="width:35%" name="email" placeholder="Enter your email address"/>
+            <input type="submit" value="Subscribe"/>
+            <input type="hidden" value="glpzzz" name="uri"/>
+            <input type="hidden" name="loc" value="en_US"/>
+        </p>
+        <p style="display: none">Delivered by <a href="https://feedburner.google.com"
+                                                 target="_blank">FeedBurner</a></p>
+    </form>
+</footer>
 
 </body>
 

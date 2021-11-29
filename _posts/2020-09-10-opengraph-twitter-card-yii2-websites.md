@@ -11,13 +11,13 @@ There a lot of meta tags to add to a simple webpage, so let's use [TaggedView](h
 
 This component overrides the `yii\web\View` adding more attributes to it, allowing to set the values on every view. Usually we setup page title with
 
-```
+```php
 $this->title = $model->title;
 ```
 
 Now, with **TaggedView** we are able to set:
 
-```
+```php
 $this->title = $model->title;
 $this->description = $model->abstract;
 $this->image = $model->image;
@@ -28,7 +28,7 @@ And this will generate the proper OpenGraph, Twitter Card and HTML meta descript
 
 Also, we can define default values for every tag in the component configuration that will be available for every page and just will be overriden if redefined as in previous example.
 
-```
+```php
 'components' => [
     //...
     'view' => [
@@ -47,7 +47,7 @@ Some of this properties have default values assigned, like `site_name` that gets
 
 Result of usage on a website:
 
-```
+```html
 <title>¿Deseas comprar o vender una casa en Cuba? | HogarEnCuba, para comprar y vender casas en Cuba</title>
 <meta name="author" content="Daxslab (https://www.daxslab.com)">
 <meta name="description" content="Hay 580 casas...">

@@ -1,9 +1,8 @@
 ---	
 title: Gabriel Alejandro López López
+description: Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he have based most of my work as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people&#x27;s lives, a goal that he have been pursuing at Daxslab.
 ---
 
-
-# Gabriel Alejandro López López
 ## Software Engineer
 
 **Website:** http://glpzzz.is-a.dev

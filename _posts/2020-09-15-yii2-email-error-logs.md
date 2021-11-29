@@ -8,7 +8,7 @@ Logging is a very important feature of the application. It let's you know what i
 
 To receive emails with messages from the app, setup the log component to email (or Telegram, or slack) transport instead (or besides) of file transport:
 
-```
+```php
 'components' => [
     // ...
     'log' => [

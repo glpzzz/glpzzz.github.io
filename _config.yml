@@ -28,3 +28,11 @@ defaults:
     values:
         is_post: true
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+markdown: kramdown
+highlighter: rouge

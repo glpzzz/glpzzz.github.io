@@ -16,7 +16,7 @@ Avoid typing the credentials of the code hosting services (github/gitlab/framagi
 
 pass will be in charge of storing our credentials for each service. First we install, initialize and proceed to save credentials in it.
 
-```
+```bash
 sudo apt install pass
 pass init <master-password>
 pass insert --multiline dev/github
@@ -40,7 +40,7 @@ If we use several code hosting services such as gitlab or another, then we repea
 
 [pass-git-helper](https://github.com/languitar/pass-git-helper) is the utility in charge of establishing the connection between git and pass. To install it we must execute:
 
-```
+```bash
 git clone https://github.com/languitar/pass-git-helper.git
 cd pass-git-helper
 sudo python3 setup.py install
@@ -48,7 +48,7 @@ sudo python3 setup.py install
 
 Once installed we proceed to its "activation" by executing.
 
-```
+```bash
 git config --global credential.helper /full/path/to/pass-git-helper
 ```
 
@@ -56,7 +56,7 @@ git config --global credential.helper /full/path/to/pass-git-helper
 
 Once configured, we must specify which credentials should be used in each case. We will achieve this with a mapping file that we are going to create in `~/.config/pass-git-helper/git-pass-mapping.ini` and whose content should be similar to:
 
-```
+```ini
 [github.com]
 target=dev/github
 

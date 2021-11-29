@@ -8,7 +8,7 @@ image: https://glpzzz.is-a.dev/assets/schema-org-yii2-websites.png
 
 Basically what we need is to embed something like this in our pages:
 
-```
+```javascript
 <script type="application/ld+json">
 { 
   "@context": "http://schema.org/",
@@ -30,7 +30,7 @@ But we don't like to write scripts like this on Yii2, so let's try to do it in o
 
 In the layout we can define some general markup for our website, so we add the following snippet at the beginning of the`@app/views/layouts/main.php` file:
 
-```
+```php
 <?= \yii\helpers\Html::script(isset($this->params['schema'])
     ? $this->params['schema']
     : \yii\helpers\Json::encode([
@@ -53,7 +53,7 @@ In the layout we can define some general markup for our website, so we add the f
 
 Here we are using the [Html::script($content, $options)](https://www.yiiframework.com/doc/api/2.0/yii-helpers-basehtml#script()-detail) to include the script with the necessary `type` option,  and [Json::encode($value, $options)](https://www.yiiframework.com/doc/api/2.0/yii-helpers-basejson#encode()-detail) to generate the JSON. Also we use a page parameter named `schema` to allow overrides on the markup from other pages. For example, in `@app/views/real-estate/view.php` we are using:
 
-```
+```php
 $this->params['schema'] = \yii\helpers\Json::encode([
     '@context' => 'https://schema.org',
     '@type' => 'Product',

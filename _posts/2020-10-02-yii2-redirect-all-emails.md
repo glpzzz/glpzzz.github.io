@@ -19,7 +19,7 @@ to solve this with the previously explained approach and without using a lot of 
 
 Well, next there is a solution: 
 
-```
+```php
 'useFileTransport' => true,
 'fileTransportCallback' => function (\yii\mail\MailerInterface $mailer, \yii\mail\MessageInterface $message) {
     $message->attachContent(json_encode([
