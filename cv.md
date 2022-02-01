@@ -1,6 +1,6 @@
 ---	
 title: Gabriel Alejandro López López
-description: Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he have based most of my work as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people&#x27;s lives, a goal that he have been pursuing at Daxslab.
+description: Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he has based most of his career as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people's lives.
 ---
 
 ## Software Engineer
@@ -9,7 +9,7 @@ description: Technology entrepreneur who also likes to explore other business ar
 **Email:** glpz@daxslab.com
 **Phone:** +5358074332
 
-Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he have based most of my work as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people&#x27;s lives, a goal that he have been pursuing at Daxslab.
+Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he has based most of his career as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people's lives.
 
 ### Location
 **Address:** 4924, 56th Avenue
@@ -19,18 +19,11 @@ Technology entrepreneur who also likes to explore other business areas. Advocate
 **Region:** Cienfuegos
 
 ### Profiles
-Github
-glpzzz
-https://github.com/glpzzz
-Stack Overflow
-glpzzz
-https://stackoverflow.com/users/12115958
-LinkedIn
-glpzzz
-https://www.linkedin.com/in/glpzzz
-Twitter
-glpzzz
-https://twitter.com/glpzzz
+- **Github:** https://github.com/glpzzz
+- **Stack Overflow:** https://stackoverflow.com/users/12115958
+- **LinkedIn:** https://www.linkedin.com/in/glpzzz
+- **Twitter:** https://twitter.com/glpzzz
+
 ## Work
 
 ### CEO &amp; Co-Founder at [Daxslab](https://www.daxslab.com)
