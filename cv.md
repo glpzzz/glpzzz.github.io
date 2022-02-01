@@ -5,9 +5,9 @@ description: Technology entrepreneur who also likes to explore other business ar
 
 ## Software Engineer
 
-**Website:** http://glpzzz.is-a.dev
-**Email:** glpz@daxslab.com
-**Phone:** +5358074332
+**Website:** <http://glpzzz.is-a.dev>
+**Email:** <glpz@daxslab.com>
+**Phone:** <a href="tel:+5358074332">+5358074332</a>
 
 Technology entrepreneur who also likes to explore other business areas. Advocate of free and open technologies on which he has based most of his career as a software developer for the last 10 years. Passionate about creating new products and services that can positively influence people's lives.
 
@@ -19,10 +19,10 @@ Technology entrepreneur who also likes to explore other business areas. Advocate
 **Region:** Cienfuegos
 
 ### Profiles
-- **Github:** https://github.com/glpzzz
-- **Stack Overflow:** https://stackoverflow.com/users/12115958
-- **LinkedIn:** https://www.linkedin.com/in/glpzzz
-- **Twitter:** https://twitter.com/glpzzz
+- **Github:** <https://github.com/glpzzz>
+- **Stack Overflow:** <https://stackoverflow.com/users/12115958>
+- **LinkedIn:** <https://www.linkedin.com/in/glpzzz>
+- **Twitter:** <https://twitter.com/glpzzz>
 
 ## Work
 
@@ -31,7 +31,7 @@ __2014 - Present__: Software engineering and development micro-company specializ
 - General management
 - Customer service
 - Engineering
-- Development
+- Development: PHP, Yii PHP Framework, HTML, CSS, Javascript, Bootstrap, Qt, C++, Python, Android, Java
 
 ### Fullstack Web Developer at [TechniqueWeb](https://www.techniqueweb.com)
 __2020 - Present__
