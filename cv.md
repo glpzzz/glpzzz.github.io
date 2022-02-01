@@ -61,7 +61,7 @@ __2019 - 2020__: Fullstack web developer for TennisCall.com improving players pr
 - Javascript
 - Bootstrap
 
-### Professor at [Universidad de Cienfuegos Carlos Rafael Rodríguez](https://ucf.edu.cu)
+### Professor at [Universidad de Cienfuegos Carlos Rafael Rodríguez](https://www.ucf.edu.cu)
 __2012-09-30 - 2015__: Professor of Data Structures 1 and Data Structures 2 (Java), Business Application Development (Java) and Web Programming (PHP). Trained students for competitive programming contests.
 - Java
 - PHP
