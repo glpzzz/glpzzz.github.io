@@ -26,7 +26,7 @@ Technology entrepreneur who also likes to explore other business areas. Advocate
 
 ## Work
 
-### Senior Software Development at [Unosquare](https://www.unosquare.com)
+### Senior Software Developer at [Unosquare](https://www.unosquare.com)
 __2022 - Present__: Providing services for [Freedom Financial
 Network](https://freedomfinancialnetwork.com).
 
