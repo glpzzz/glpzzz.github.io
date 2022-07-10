@@ -26,6 +26,10 @@ Technology entrepreneur who also likes to explore other business areas. Advocate
 
 ## Work
 
+### Senior Software Development at [Unosquare](https://www.unosquare.com)
+__2022 - Present__: Providing services for [Freedom Financial
+Network](https://freedomfinancialnetwork.com).
+
 ### CEO &amp; Co-Founder at [Daxslab](https://www.daxslab.com)
 __2014 - Present__: Software engineering and development micro-company specialized in applying agile methodologies for web, mobile and desktop projects. With the shortest delivery times, what is essential for us is that you get the results you are looking for in the minimum time and at the lowest possible cost: we only build what is essential at any given time. We love to share our ideas. We believe that the free and open source software movements have opened the way to high quality agile software development. For that reason we feel the need to contribute to the community with the same quality that we have received.
 - General management
