@@ -41,15 +41,12 @@ __2014 - Present__: Software engineering and development micro-company specializ
 
 ### Fullstack Web Developer at [TechniqueWeb](https://www.techniqueweb.com)
 __2020 - Present__
-- PHP
-- Yii PHP Framework
-- HTML
-- CSS
-- Javascript
-- Bootstrap
+- Engineering
+- Development: PHP, Yii PHP Framework, HTML, CSS, Javascript, Bootstrap,
+  Wordpress
 
 ### Instructor/Consultant at [CubaEmprende](https://www.proyectocubaemprende.org)
-__2015 - Present__: Teaching the &#x27;Marketing and Administration&#x27; and &#x27;Sales and Customer Service&#x27; modules of the Taller Emprende. I also provide especilized advice to entrepreneurs in these areas.
+__2015 - 2022__: Teaching the &#x27;Marketing and Administration&#x27; and &#x27;Sales and Customer Service&#x27; modules of the Taller Emprende. I also provide especilized advice to entrepreneurs in these areas.
 - Marketing
 - Management
 - Sales
