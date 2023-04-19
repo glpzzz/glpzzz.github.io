@@ -26,6 +26,7 @@ I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap
 
 * [Lenovo Thinkpad P50](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadp/thinkpad-p50/22tp2wpwp50) + SMI 27" monitor
 * [Ajazz AK33 mechanical keyboard](http://www.a-jazz.com/en/h-pd-63.html)
+* [Logitech M585 mouse](https://www.logitech.com/en-us/products/mice/m585-wireless-mouse.910-005108.html)
 * [Ubuntu 22.10](https://www.ubuntu.com)
 * [dwm](https://dwm.suckless.org), ([my custom build](https://github.com/glpzzz/dwm))
 * [my dotfiles](https://github.com/glpzzz/dotfiles)
