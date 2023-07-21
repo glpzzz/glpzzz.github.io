@@ -39,19 +39,6 @@ I have a strong background in LAMP, Yii PHP Framework, Bootstrap, Docker and oth
 
 ## Work
 
-### Senior Software Engineer, [Unosquare](https://www.unosquare.com)
-
-Guadalajara, Mexico Metropolitan Area (Mar 2022 - Jun 2023)
-
-Provided staff augmentation services on Achieve (formerly Freedom Financial Network) as senior software engineer leveraging REST APIs, LAMP stack, OOP, Docker, Laravel, Web Development, Zend Framework, jQuery, jQuery UI
-
-* Development and enhancement of CAP (Client Acquisition Portal), a critical platform for Achieve&#x27;s wholesale operations
-* Implemented new features that improved the overall user experience and functionality of the platform.
-* Provided production support to ensure the smooth operation of the platform.
-* Led migration efforts of legacy sections of the code base, ensuring a seamless transition with minimal impact on business processes.
-* Worked on the integration of CAP with 3rd party services, allowing for improved data sharing and streamlined workflows between different platforms.
-* I also provided made the required changes in other applications written in Laravel and Golang to ensure the correct integration between them.
-
 ### CEO &amp; Co-Founder, [Daxslab](https://daxslab.com)
 
 Cienfuegos, Cuba (Aug 2012 - Jun 2022)
