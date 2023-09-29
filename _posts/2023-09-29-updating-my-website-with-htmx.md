@@ -62,12 +62,12 @@ Again from the official [documentation](https://htmx.org/extensions/head-support
 > - Elements that do not exist in the current head will be added at the end of the head tag
 > - Elements that exist in the current head, but not in the new head will be removed from the head
 
-As a result just the desired tags in `head` are updated (title, description, OpenGraph, Schema.org) and the rest stay
+As a result just the desired tags in `head` are updated (title, description, OpenGraph, Schema.org) and the rest stays
 the same.
 
 ### The actual changes
 
-Just two things where required:
+Just two things were required:
 
 **Step 1:** Add the htmx and extension to the layout (`_layouts/home.html`) of all the pages:
 
