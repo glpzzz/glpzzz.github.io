@@ -238,40 +238,20 @@ Website for Center of Environmental Studies of Cienfuegos.
 ### Fabian Contador
 [https://www.fabiancontador.nat.cu](https://www.fabiancontador.nat.cu)
 
-
-
-
-
-
 Landing page for Fabian Contador. A Cuban accountant from Guanajay, Artemisa.
 
 ### ComoHay
 [https://comohay.com](https://comohay.com)
-
-
-
-
-
 
 Search engine for popular Cuba ads websites
 
 ### Covid19 Cubadata Dashboard
 [https://covid19cubadata.github.io](https://covid19cubadata.github.io)
 
-
-
-
-
-
 Working as software engineer to bring up to date charts and analysis about Covid19 pandemic on Cuba with data from MINSAP (Cuban Ministry of Health)
 
 ### Tenniscall.com
 [https://www.tenniscall.com](https://www.tenniscall.com)
-
-
-
-
-
 
 Tenniscall - Find tennis partners, coaches, tennis clubs. Organize tennis leagues &amp; tournaments. Book a court &amp; play matches. It&#x27;s 100% free.
 
@@ -279,47 +259,33 @@ Tenniscall - Find tennis partners, coaches, tennis clubs. Organize tennis league
 [https://www.plexsys.mx](https://www.plexsys.mx)
 
 
-
-
-
-
 Website for Plexsys
-
 
 ## Education
 
 ### Universidad de Cienfuegos Carlos Rafael Rodríguez - Postgraduate in English
 ##### Dec 2012 - Dec 2013
 
-
 ### Universidad de Cienfuegos Carlos Rafael Rodríguez - Master of Science (MSc) in Administración de Negocios
 ##### Dec 2013 - Dec 2015
-
 
 ### Proyecto CubaEmprende - Taller Emprende in Business Administration and Management, General
 ##### Dec 2015 - Dec 2015
 
-
 ### Universidad de Ciencias Informaticas - Posgrado in Infraestructuras de datos geoespaciales
 ##### Dec 2012 - Dec 2013
-
 
 ### Universidad de Cienfuegos Carlos Rafael Rodríguez - Postgraduate in Pedagogy
 ##### Dec 2012 - Dec 2013
 
-
 ### Universidad de Ciencias Informáticas - Postgraduate in Softcomputing
 ##### Dec 2013 - Dec 2013
-
 
 ### Universidad de Cienfuegos Carlos Rafael Rodríguez - Ingeniero in Informático
 ##### Dec 2007 - Dec 2012
 
-
 ### Good News Language Institute - Pre-Intermediate English in English
 ##### Dec 2011 - Dec 2015
-
-
 
 ## Awards
 
@@ -350,12 +316,10 @@ How to split your home directory in several disks instead of having a bunch o un
 
 Use this recipe to save time if you continuosly are using git online services as Gitlab, Github, Bitbucket. You just need to remember one password and enter it once per session.
 
-
 ## Languages
 
 * Native Speaker in Spanish
 * Full Professional in English
-
 
 ## References
 
@@ -364,22 +328,31 @@ Use this recipe to save time if you continuosly are using git online services as
 Between my Six Sigma work and my time in Product Management (20+ years combined), I have worked with a great number of developers, and Gabriel is amongst the very best I have worked with in terms of balancing back-end efficiency with elegant front-end user solutions. His ability to create high-quality UI functionality in a legacy system with a great number of pre-existing limitations has been superb.
 In addition to the technical abilities Gabriel brought to the team, his personality, humor, and optimism were a bright spot in every day that I interacted with Gabriel. He has been an incredible asset to our team and I (along with the rest of the team) will miss him and wish him well in the next journey. 
 Any team that is fortunate enough to have Gabriel with them is a lucky team indeed.
+
 ### Jose Luis Gonzalez Ochoa (Delivery Services Lead, Unosquare)
 > Gabriel has shown a great attitude during the time he&#x27;s worked with us. His contributions to the project have been very valuable and he has received recognition both internally and by the clients he&#x27;s worked with. Gabriel is very professional and possesses great development skills.
+
 ### Josias Hernandez Perez (Communication and Marketing Independent Counselor)
 > This is one of the most intelligent and capable dudes I have ever met. Undoubtedly, Gabriel is remarkable for his versatility as a professional eager to learn and upgrade himself.
+
 ### Yoel Suarez González (Manager, Sweet &amp; Cortaditos)
 > He trabajado con Gabriel durante siete años y tiene capacidades de gran impacto en el mundo de la informática y la Administración de Empresas.
 Ha trabajado como Instructor Asesor del Proyecto CubaEmprende en Cienfuegos y lo recomiendo para cualquier tipo de trabajo profesional.
+
 ### Serguei Castillo (System Administrator)
 > Me llamo Serguei Castillo Castillo, He trabajado con Gabriel Alejandro por varios años ya, muy buen programador siempre al tanto de las últimas tecnologías y tendencias, capaz de realizar varios proyectos a la vez, con diferentes lenguajes de programación. Mu competente y lo recomiendo para su contratación. Un saludo, Gracias.
+
 ### Jose Manuel Mc Langhlin Matienzo (Desarrollador de software .NET, CLT SA)
 > Tuve la suerte de que el Gabo fuera mi profesor de Estructura de Datos en segundo año de la carrera, uno de los mejores que tuve en mi época de estudiante, aprendí un moton de el. Eternamente agradecido 
+
 ### Adrián Fonseca Vega (Especialista Técnico L2, ARNALDO C. CASTRO S.A)
 > Un profesional competente , muy bien preparado, emprendedor, capaz de afrontar nuevas metas y salir exitoso, experto en desarrollo de aplicaciones, muy buen compañero de equipo.
+
 ### Ibrahim Martín Lorenzo (IT Business Consultant - PM and Digital Strategy, Solution Architect, Network - System Administrator)
 > He trabajo con Gabriel en desarrollo de proyectos de software, muy resolutivo, posee un amplio conocimiento en el ámbito del software y las tecnologías libres, emprendedor por naturaleza y un pedazo de persona. Sencillamente alguien en quien depositar la confianza de desarrollo de un proyecto, sin lugar a dudas.
+
 ### Erich J. García Cruz (CEO, QvaPay)
 > Excelente desarrollador web, multiples proyectos en su cartera hacen de Gabriel un profesional en el sector de desarrollo web. Altamente responsable y serio en su trabajo. Lo recomiendo notablemente.
+
 ### Sandy Pérez (Senior Software Engineer, APPLICA CORP)
 > Excellent and focused developer, very good transmitting and creating ideas. Great as a teammate, has a really well skilled developer with lots of experience.
