@@ -97,7 +97,9 @@ layout: compress
     <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/htmx.org@1.9.5" integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
 
     <style>
         .markdown-body code {
@@ -196,8 +198,7 @@ layout: compress
     </script>
 </head>
 
-<body class="markdown-body">
-
+<body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
 <main>
     <article>
         {% if page.is_post %}
