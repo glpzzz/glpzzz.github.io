@@ -1,5 +1,5 @@
 ---
-layout: compress
+<!--layout: compress-->
 ---
 
 <!DOCTYPE html>
@@ -11,17 +11,14 @@ layout: compress
     <title>{{page.title}} | {{site.title}}</title>
 
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "BlogPosting",
-            "headline": "{{page.title}}",
-            "url": "{{site.url}}{{page.url}}",
-            "image": "https://glpzzz.dev/glpzzz.jpg",
-            "author": {
+        [
+            {
+                "@context": "https://schema.org",
                 "@type": "Person",
+                "@id": "{{ site.url }}/#author",
                 "name": "{{site.title}}",
                 "url": "{{site.url}}",
-                "image": "https://glpzzz.dev/glpzzz.jpg",
+                "image": "{{ site.url }}/glpzzz.jpg",
                 "sameAs": [
                     "https://twitter.com/glpzzz",
                     "https://t.me/glpzzz",
@@ -34,12 +31,7 @@ layout: compress
                     "https://join.skype.com/invite/swrMO6a3xWXv",
                     "https://stackoverflow.com/users/12115958/"
                 ],
-                "jobTitle": "CEO & Founder",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Daxslab",
-                    "url": "https://www.daxslab.com"
-                },
+                "jobTitle": "Software Engineer",
                 "contactPoint": [
                     {
                         "@type": "ContactPoint",
@@ -48,8 +40,46 @@ layout: compress
                         "url": "https://t.me/glpzzz"
                     }
                 ]
+            },
+            {
+                "@context": "https://schema.org",
+                "@id": "{{ site.url }}/#website",
+                "@type": "WebSite",
+                "name": "{{ site.title }}",
+                "url": "{{ site.url }}",
+                "image": "{{ site.url }}/glpzzz.jpg",
+                "description": "{{ site.description }}"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "WebPage",
+                "@id": "{{ site.url }}{{ page.url }}",
+                "url": "{{ site.url }}{{ page.url }}",
+                "name": "{{ page.title }}",
+                "abstract": " page.description ",
+                "isPartOf": {
+                    "@id": "{{ site.url }}/#website"
+                },
+                "author": {
+                    "@id": "{{ site.url }}/#author"
+                }
             }
-        }
+            {% if page.is_post %}
+            ,{
+                "@context": "http://schema.org",
+                "@type": "BlogPosting",
+                "headline": "{{page.title}}",
+                "url": "{{ site.url }}{{ page.url }}",
+                "image": "{{ page.image }}",
+                "mainEntityOfPage": {
+                  "@id": "{{ site.url }}{{ page.url }}"
+                },
+                "author": {
+                    "@id": "{{ site.url }}/#author"
+                }
+            }
+            {% endif %}
+        ]
     </script>
 
     <meta name="author" content="{{site.title}}">
@@ -58,8 +88,8 @@ layout: compress
     <meta name="keywords"
           content="{{site.title}}, glpzzz, software engineer, software developer, Daxslab, Cienfuegos, Cuba, software in Cuba">
     <meta name="robots" content="follow">
-    <link href="{{site.url}}/feed.xml" type="application/rss+xml" rel="alternate"
-          title="Gabriel's latest 10 blog posts (atom)"/>
+
+    {% feed_meta %}
     <link rel="canonical" href="{{site.url}}{{page.url}}"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -79,7 +109,7 @@ layout: compress
           content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:type" content="profile">
     <meta property="og:image"
-          content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.dev/glpzzz.jpg{% endif %}">
+          content="{% if page.image %}{{page.image}}{% else %}{{ site.url }}/glpzzz.jpg{% endif %}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@glpzzz">
@@ -88,7 +118,7 @@ layout: compress
     <meta name="twitter:description"
           content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:image"
-          content="{% if page.image %}{{page.image}}{% else %}https://glpzzz.dev/glpzzz.jpg{% endif %}">
+          content="{% if page.image %}{{page.image}}{% else %}{{ site.url }}/glpzzz.jpg{% endif %}">
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
