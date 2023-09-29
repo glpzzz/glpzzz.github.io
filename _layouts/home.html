@@ -97,11 +97,43 @@ layout: compress
     <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/htmx.org@1.9.5" integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <script src="https://unpkg.com/htmx.org@1.9.5"
+            integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
+            crossorigin="anonymous"></script>
     <script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
 
     <style>
+
+        body > header,
+        body > footer{
+            text-align: center;
+        }
+
+        body > header > img.glpzzz {
+            width: 40%;
+        }
+
+        #title {
+            display: block;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        #main-nav {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #main-nav > li {
+            margin: 0;
+        }
+
+
         .markdown-body code {
             font-family: "Fira Code", monospace;
         }
@@ -109,7 +141,7 @@ layout: compress
         .markdown-body {
             box-sizing: border-box;
             min-width: 360px;
-            max-width: 1000px;
+            /*max-width: 1000px;*/
             margin: 0 auto;
             padding: 1rem 1rem;
             font-family: 'Fira Sans', sans-serif;
@@ -154,27 +186,45 @@ layout: compress
         }
 
         header > p.description-post {
-          font-style: italic;
-          color: #8D8F92;
+            font-style: italic;
+            color: #8D8F92;
         }
-        
+
         header > p.description-page {
             display: none;
         }
 
         @media (min-width: 768px) {
-            img.glpzzz {
-                height: auto;
-                aspect-ratio: 1/1;
-                width: 40%;
-                float: right;
+
+            body {
+                display: grid;
+                grid-template-columns: .318fr .682fr;
+                grid-template-rows: 0fr 1fr;
+                grid-template-areas:
+                "header content"
+                "footer content";
             }
 
+            body > header {
+                grid-area: header;
+                padding: 1rem 20%;
+            }
 
+            body > header > img.glpzzz {
+                width: 100%;
+            }
+
+            main {
+                grid-area: content;
+            }
+
+            body > footer {
+                padding: 1rem;
+                grid-area: footer;
+            }
         }
 
         @media print {
-
             body.markdown-body > footer {
                 display: none;
             }
@@ -199,7 +249,20 @@ layout: compress
 </head>
 
 <body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
-<main>
+
+<header>
+    <img src="/glpzzz.jpg" alt="Picture of Gabriel Alejandro López López" class="glpzzz">
+    <span id="title">{{site.title}}</span>
+    <nav>
+        <ul id="main-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/cv">CV</a></li>
+            <li><a href="/#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="content">
     <article>
         {% if page.is_post %}
         <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
@@ -266,7 +329,8 @@ layout: compress
 <footer>
     <h2 id="contact-me">Contact me</h2>
     <ul class="list-inline">
-        <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="me noopener">CodersRank</a></li>
+        <li><a href="https://profile.codersrank.io/user/glpzzz" target="_blank" rel="me noopener">CodersRank</a>
+        </li>
         <li><a href="https://dev.to/glpzzz" target="_blank" rel="me noopener">DEV</a></li>
         <li><a href="https://github.com/glpzzz" target="_blank" rel="me noopener">Github</a></li>
         <li><a href="https://www.linkedin.com/in/glpzzz" target="_blank" rel="me noopener">LinkedIn</a></li>
