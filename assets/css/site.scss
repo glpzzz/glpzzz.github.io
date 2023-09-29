@@ -202,6 +202,10 @@ p.description-page {
     top: 614px;
   }
 
+  #main-nav > li:last-of-type {
+    display: none;
+  }
+
   #post-list {
     list-style: none;
     padding: 0;
