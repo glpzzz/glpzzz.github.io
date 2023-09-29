@@ -1,7 +1,7 @@
 ---
 title: "Updating my website with htmx"
 date: 2023-09-29
-description: "How do I apply a very simple enhancement to my website using the boost feature of htmx?"
+description: "How do I applied a very simple enhancement to my website using the boost feature of htmx?"
 image: https://htmx.org/img/memes/bellcurve2.png
 ---
 
@@ -16,7 +16,7 @@ markup.
 There is a lot to say about it but it will refer you to the 2 more important sources
 
 - [htmx.org](https://htmx.org) the official documentation
-- [https://hypermedia.systems/](Hypermedia Systems) a book on the hypermedia concept (the basics of htmx) and a very
+- [Hypermedia Systems](https://hypermedia.systems/) a book on the hypermedia concept (the basics of htmx) and a very
   good resource of simple (not basic) web development.
 
 ## Why to use htmx?
@@ -36,7 +36,7 @@ I'll use this website as an example.
 
 ### hx-boost
 
-From the official [https://htmx.org/attributes/hx-boost/](documentation):
+From the official [documentation](https://htmx.org/attributes/hx-boost/):
 
 > The hx-boost attribute allows you to “boost” normal anchors and form tags to use AJAX instead. This has the nice
 > fallback that, if the user does not have javascript enabled, the site will continue to work.
@@ -55,7 +55,7 @@ solve?
 
 ### The head-support Extension
 
-Again from the official [https://htmx.org/extensions/head-support/#usage](documentation):
+Again from the official [documentation](https://htmx.org/extensions/head-support/#usage):
 
 > If the htmx request is from a boosted element, then the following merge algorithm is used:
 > - Elements that exist in the current head as exact textual matches will be left in place
