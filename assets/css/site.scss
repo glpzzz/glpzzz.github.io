@@ -79,6 +79,9 @@ body > footer {
 body > header > a > img.glpzzz {
   width: 40%;
   border-radius: 100%;
+  padding: .25rem;
+  background: var(--bg_h);
+  border: 1px solid var(--fg);
 }
 
 #title {
