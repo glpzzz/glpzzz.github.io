@@ -69,16 +69,21 @@ the same.
 
 Just two things where required:
 
-1. add the htmx and extension to the layout (`_layouts/home.html`) of all the pages:
-   ```html
-   <script src="https://unpkg.com/htmx.org@1.9.5" integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous"></script>
-   <script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
-   ```
-2. add the hx attributes to the body tag. Note that I used the `data-` prefix for the __hx__ attributes in order to
-   prevent issues with HTML validators
-   ```html
-   <body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
-   ``` 
+**Step 1:** Add the htmx and extension to the layout (`_layouts/home.html`) of all the pages:
+
+```html
+<script src="https://unpkg.com/htmx.org@1.9.5"
+        integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
+```
+
+**Step 2:** dd the hx attributes to the body tag. Note that I used the `data-` prefix for the __hx__ attributes in order
+to prevent issues with HTML validators
+
+```html
+<body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
+``` 
 
 ## Conclusion
 
