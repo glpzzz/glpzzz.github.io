@@ -71,31 +71,43 @@
   }
 }
 
-body > header,
 body > footer {
   text-align: center;
 }
 
-body > header > a > img.glpzzz {
-  width: 40%;
+#glpzzz {
+  max-width: 80px;
   border-radius: 100%;
   padding: .25rem;
   background: var(--bg_h);
   border: 1px solid var(--fg);
 }
 
+#title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#title-container:hover {
+  text-decoration: none;
+}
+
 #title {
   display: block;
-  margin: 1.5rem 0 2rem;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 #main-nav {
   list-style: none;
-  padding: 0;
   display: flex;
   justify-content: space-between;
+  border: 1px dotted var(--yellow);
+  border-left: none;
+  border-right: none;
+  padding: .5rem 0;
+  margin: 1rem 0;
 }
 
 #main-nav > li {
@@ -108,7 +120,6 @@ body > header > a > img.glpzzz {
 
   box-sizing: border-box;
   min-width: 360px;
-  /*max-width: 1000px;*/
   margin: 0 auto;
   padding: 1rem 1rem;
   font-family: 'Fira Sans', sans-serif;
@@ -169,8 +180,25 @@ p.description-page {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+  #glpzzz {
+    max-width: 90px;
+  }
+  #title {
+    font-size: 1.85rem;
+  }
+}
 
+@media (min-width: 676px) {
+  #glpzzz {
+    max-width: 100px;
+  }
+  #title {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 768px) {
   body {
     display: grid;
     grid-template-columns: .318fr .682fr;
@@ -184,13 +212,22 @@ p.description-page {
 
   body > header {
     grid-area: header;
-    padding: 1rem 20%;
+    padding: 1rem 0%;
     position: sticky;
     top: 30px;
+    text-align: center;
   }
 
-  body > header > a > img.glpzzz {
+  #title-container {
+    display: block;
+  }
+
+  #glpzzz {
     width: 100%;
+  }
+
+  #title {
+    font-size: 1.5rem;
   }
 
   main {
@@ -199,10 +236,10 @@ p.description-page {
   }
 
   body > footer {
-    padding: 1rem;
+    padding: 0 1rem;
     grid-area: footer;
     position: sticky;
-    top: 614px;
+    top: 354px;
   }
 
   #main-nav > li:last-of-type {
@@ -228,8 +265,86 @@ p.description-page {
   #post-list > li > p.description-post {
     margin: 0;
   }
+}
 
+@media (min-width: 992px) {
+  #title {
+    font-size: 2rem;
+  }
 
+  body > footer {
+    top: 390px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #title {
+    font-size: 2.5rem;
+  }
+
+  #glpzzz {
+    max-width: unset;
+    width: 60%;
+  }
+
+  body > footer {
+    top: 549px;
+  }
+
+}
+
+@media (min-width: 1366px) {
+  body > header {
+    padding: 1rem 10%;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #main-nav {
+    justify-content: space-around;
+  }
+
+  body > footer {
+    top: 493px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  #title {
+    font-size: 2.4rem
+  }
+
+  body > footer {
+    top: 533px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #title {
+    font-size: 2.6rem
+  }
+
+  body > footer {
+    top: 572px;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    max-width: 1920px;
+  }
+
+  #title {
+    font-size: 3rem;
+  }
+
+  body > footer {
+    top: 649px;
+
+  }
 }
 
 @media print {

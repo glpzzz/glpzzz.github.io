@@ -64,21 +64,30 @@
                     "@id": "{{ site.url }}/#author"
                 }
             }
-            {% if page.is_post %}
-            ,{
+            {
+                %
+            if
+            page.is_post
+            %
+        },
+            {
                 "@context": "http://schema.org",
                 "@type": "BlogPosting",
                 "headline": "{{page.title}}",
                 "url": "{{ site.url }}{{ page.url }}",
                 "image": "{{ page.image }}",
                 "mainEntityOfPage": {
-                  "@id": "{{ site.url }}{{ page.url }}"
+                    "@id": "{{ site.url }}{{ page.url }}"
                 },
                 "author": {
                     "@id": "{{ site.url }}/#author"
                 }
             }
-            {% endif %}
+            {
+                %
+            endif
+            %
+        }
         ]
     </script>
 
@@ -154,10 +163,13 @@
 <body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
 
 <header>
-    <a href="/">
-        <img src="/glpzzz.jpg" alt="Picture of Gabriel Alejandro López López" class="glpzzz">
+    <a id="title-container" href="/">
+        <img src="/glpzzz.jpg" alt="Picture of Gabriel Alejandro López López" id="glpzzz">
+        <span id="title">
+            {{site.title}}
+            <small>Software Engineer</small>
+        </span>
     </a>
-    <span id="title">{{site.title}}</span>
     <nav>
         <ul id="main-nav">
             <li><a href="/">Home</a></li>
