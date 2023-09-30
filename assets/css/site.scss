@@ -126,6 +126,10 @@ body > footer {
   font-size: 20px;
 }
 
+.markdown-body h1, .markdown-body h2 {
+  border-bottom: 1px dotted var(--yellow);
+}
+
 .markdown-body a {
   color: var(--yellow);
 }
