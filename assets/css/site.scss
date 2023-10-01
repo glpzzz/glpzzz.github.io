@@ -32,6 +32,13 @@
   --aqua-dim: #689d6a;
   --orange-dim: #d65d0e;
   --gray-dim: #7c6f64;
+
+  --font-family-sans-serif: /* 1 */
+          -apple-system, BlinkMacSystemFont,
+            /* 2 */
+          "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+            /* 3 */
+          "Helvetica Neue", sans-serif;
 }
 
 
@@ -71,289 +78,166 @@
   }
 }
 
-body > footer {
-  text-align: center;
-}
-
-#glpzzz {
-  max-width: 80px;
-  border-radius: 100%;
-  padding: .25rem;
-  background: var(--bg_h);
-  border: 1px solid var(--fg);
-}
-
-#title-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-#title-container:hover {
-  text-decoration: none;
-}
-
-#title {
-  display: block;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-#main-nav {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  border: 1px dotted var(--yellow);
-  border-left: none;
-  border-right: none;
-  padding: .5rem 0;
-  margin: 1rem 0;
-}
-
-#main-nav > li {
+html, body {
+  padding: 0;
   margin: 0;
 }
 
-.markdown-body {
+body {
   background: var(--bg);
   color: var(--fg);
 
-  box-sizing: border-box;
-  min-width: 360px;
-  margin: 0 auto;
-  padding: 1rem 1rem;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 20px;
+  font-family: var(--font-family-sans-serif);
 }
 
-.markdown-body h1, .markdown-body h2 {
-  border-bottom: 1px dotted var(--yellow);
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.markdown-body a {
+h1 {
+  margin-top: 1rem;
+}
+
+h1, h2 {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
   color: var(--yellow);
+
+  &:hover {
+    color: var(--yellow-dim);
+    text-decoration: none;
+  }
 }
 
-.markdown-body code {
-  font-family: "Fira Code", monospace;
-}
-
-.markdown-body .highlight pre, .markdown-body pre {
-  font-size: 75%;
-  font-family: "Fira Code", monospace;
+blockquote {
   background: var(--bg_h);
+  color: var(--fg1);
+  padding: .5rem .5rem .5rem 1rem;
+  border-left-color: var(--yellow);
 }
 
-.markdown-body img {
-  width: 100%;
-  height: auto;
+main {
+  padding: 0 1rem 1rem;
 }
 
-ul.list-inline,
-ol.breadcrumbs {
+article {
+  > header {
+    > p {
+      color: var(--fg1);
+      font-style: italic;
+    }
+  }
+}
+
+#title {
+  background: var(--blue);
+  color: var(--bg);
+  display: block;
+  font-family: "Fira Code", monospace;
+  font-weight: bold;
+  padding: .25rem 1rem;
+  text-decoration: none;
+}
+
+#main-nav {
+  background: var(--bg_h);
+  display: flex;
+  font-family: "Fira Code", monospace;
+  list-style: none;
+  margin: 0;
   padding: 0;
-}
 
-ul.list-inline > li,
-ol.breadcrumbs > li {
-  display: inline-block;
-}
+  & > li {
+    margin: 0;
+    padding: .5rem 1rem;
 
-ul.list-inline > li:last-child:after {
-  content: "";
-}
+    & > a {
+      text-decoration: none;
+    }
 
-ul.list-inline > li:after {
-  content: " | "
-}
-
-ol.breadcrumbs > li:after {
-  content: " > "
-}
-
-ol.breadcrumbs > li:last-child:after {
-  content: "";
-}
-
-p.description-post {
-  font-style: italic;
-  color: var(--aqua);
-}
-
-p.description-page {
-  display: none;
-}
-
-@media (min-width: 576px) {
-  #glpzzz {
-    max-width: 90px;
-  }
-  #title {
-    font-size: 1.85rem;
   }
 }
 
-@media (min-width: 676px) {
-  #glpzzz {
-    max-width: 100px;
-  }
-  #title {
-    font-size: 2.3rem;
+#post-list {
+
+  padding-left: 1rem;
+
+  > li {
+
+    margin-bottom: 1rem;
+
+    list-style-type: "> ";
+
+    > time {
+      display: block;
+      font-style: italic;
+      font-size: .9em;
+    }
+
+    > h2 {
+      display: inline;
+      margin: 0;
+      font-size: 1em;
+    }
+
+    > p {
+      display: inline;
+    }
   }
 }
 
-@media (min-width: 768px) {
+body > footer {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+ul.list-inline {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+
+  > li {
+    display: inline;
+    padding: .25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
   body {
-    display: grid;
-    grid-template-columns: .318fr .682fr;
-    grid-template-rows: 0fr 0fr 1fr;
-    grid-template-areas:
-                "header content"
-                "footer content"
-                ". content";
+    width: 1024px;
+    margin: 0 auto;
 
-  }
-
-  body > header {
-    grid-area: header;
-    padding: 1rem 0%;
-    position: sticky;
-    top: 30px;
-    text-align: center;
+    font-size: 18px;
   }
 
   #title-container {
-    display: block;
+    display: flex;
+
+    > img {
+      aspect-ratio: 1/1;
+      height: auto;
+      width: 100px;
+    }
   }
 
   #glpzzz {
-    width: 100%;
-  }
-
-  #title {
-    font-size: 1.5rem;
-  }
-
-  main {
-    grid-area: content;
-    padding: 0 2rem;
-  }
-
-  body > footer {
-    padding: 0 1rem;
-    grid-area: footer;
-    position: sticky;
-    top: 354px;
-  }
-
-  #main-nav > li:last-of-type {
-    display: none;
+    float: right;
+    margin-left: 1rem;
+    width: 50%;
   }
 
   #post-list {
-    list-style: none;
-    padding: 0;
-  }
-
-  #post-list > li {
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 10px var(--bg_h);
-  }
-
-  #post-list > li > h2 {
-    border: 0;
-    margin: 0;
-  }
-
-  #post-list > li > p.description-post {
-    margin: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  #title {
-    font-size: 2rem;
-  }
-
-  body > footer {
-    top: 390px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #title {
-    font-size: 2.5rem;
-  }
-
-  #glpzzz {
-    max-width: unset;
-    width: 60%;
-  }
-
-  body > footer {
-    top: 549px;
+    clear: both;
   }
 
 }
-
-@media (min-width: 1366px) {
-  body > header {
-    padding: 1rem 10%;
-  }
-
-  #title {
-    font-size: 2rem;
-  }
-
-  #main-nav {
-    justify-content: space-around;
-  }
-
-  body > footer {
-    top: 493px;
-  }
-
-}
-
-@media (min-width: 1440px) {
-  #title {
-    font-size: 2.4rem
-  }
-
-  body > footer {
-    top: 533px;
-  }
-}
-
-@media (min-width: 1600px) {
-  #title {
-    font-size: 2.6rem
-  }
-
-  body > footer {
-    top: 572px;
-  }
-}
-
-@media (min-width: 1900px) {
-  body {
-    max-width: 1920px;
-  }
-
-  #title {
-    font-size: 3rem;
-  }
-
-  body > footer {
-    top: 649px;
-
-  }
-}
-
-@media print {
-  body.markdown-body > footer {
-    display: none;
-  }
-}
-

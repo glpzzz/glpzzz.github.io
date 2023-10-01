@@ -5,19 +5,15 @@ description: "Gabriel Alejandro López López's curriculum vitae as a Senior Sof
 image: https://glpzzz.dev/glpzzz.jpg 
 ---
 
-# Gabriel Alejandro López López
-## Senior Software Engineer
+# Gabriel Alejandro López López (Senior Software Engineer)
 
-## Contact
+## Contacts
 
 - Email: [glpz@daxslab.com](mailto:glpz@daxslab.com) 
 - Website: [https://glpzzz.dev](https://glpzzz.dev) 
 - Phone: +5358074332 
-
 - City: Cienfuegos 
-
 - Country: CU 
-
 
 ## Profiles
 

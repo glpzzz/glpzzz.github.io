@@ -129,21 +129,21 @@
     <meta name="twitter:image"
           content="{% if page.image %}{{page.image}}{% else %}{{ site.url }}/glpzzz.jpg{% endif %}">
 
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
-          integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
+    <!--    <link rel="stylesheet"-->
+    <!--          href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"-->
+    <!--          integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="-->
+    <!--          crossorigin="anonymous" referrerpolicy="no-referrer"/>-->
+        <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
+    <!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"-->
+    <!--          rel="stylesheet">-->
     <link rel="stylesheet" href="/assets/css/site.css"/>
 
-    <script src="https://unpkg.com/htmx.org@1.9.5"
-            integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
-            crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
+        <script src="https://unpkg.com/htmx.org@1.9.5"
+                integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
+                crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics --->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118197695-3"></script>
@@ -163,12 +163,8 @@
 <body class="markdown-body" data-hx-boost="true" data-hx-ext="head-support">
 
 <header>
-    <a id="title-container" href="/">
-        <img src="/glpzzz.jpg" alt="Picture of Gabriel Alejandro López López" id="glpzzz">
-        <span id="title">
-            {{site.title}}<br>
-            <small>(Software Engineer)</small>
-        </span>
+    <a id="title" href="/">
+        {{site.title}} <small>(Software Engineer)</small>
     </a>
     <nav>
         <ul id="main-nav">
@@ -178,30 +174,15 @@
             <li><a href="/#contact-me">Contact</a></li>
         </ul>
     </nav>
+    {% if page.name == 'about.md' %}
+    <img id="glpzzz" src="/glpzzz.jpg" alt="Picture of {{ site.name }}"/>
+    {% endif %}
 </header>
 <main>
-
-    {% if page.name != 'index.md' %}
-    <nav>
-        <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" title="Hello World!" href="/"><span itemprop="name">home</span></a>
-                <meta itemprop="position" content="1"/>
-            </li>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <span itemprop="name">{{page.title}}</span>
-                <meta itemprop="position" content="2"/>
-            </li>
-        </ol>
-    </nav>
-    {% endif %}
 
     {% if page.is_post %}
     {{ content }}
     {% else %}
-    <header>
-        <h1>{{ page.title }}</h1>
-    </header>
     {{content}}
     {% endif %}
 
