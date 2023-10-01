@@ -1,4 +1,4 @@
-title: Gabriel Alejandro López López (Software Engineer)
+title: Gabriel Alejandro López López
 email: glpz@daxslab.com
 description: >- # this means to ignore newlines until "baseurl:"
   I’m a software engineer living in Cienfuegos, Cuba. 
@@ -23,16 +23,13 @@ defaults:
         layout: "home"
   -
     scope:
-        path: "" # an empty string here means all files in the project
-        type: "posts" # previously `post` in Jekyll 2.2.
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
-        is_post: true
+      is_post: true
+      layout: "post"
 
 markdown: kramdown
 
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
-
-markdown: kramdown
-highlighter: rouge

@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{page.title}} | {{site.title}}</title>
+    <title>{{page.title}} | {{site.title}} (Software Engineer)</title>
 
     <script type="application/ld+json">
         [
@@ -166,8 +166,8 @@
     <a id="title-container" href="/">
         <img src="/glpzzz.jpg" alt="Picture of Gabriel Alejandro López López" id="glpzzz">
         <span id="title">
-            {{site.title}}
-            <small>Software Engineer</small>
+            {{site.title}}<br>
+            <small>(Software Engineer)</small>
         </span>
     </a>
     <nav>
@@ -179,9 +179,10 @@
         </ul>
     </nav>
 </header>
-<main class="content">
-    <article>
-        {% if page.is_post %}
+<main>
+
+    {% if page.name != 'index.md' %}
+    <nav>
         <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" title="Hello World!" href="/"><span itemprop="name">home</span></a>
@@ -192,56 +193,18 @@
                 <meta itemprop="position" content="2"/>
             </li>
         </ol>
-        {% endif %}
+    </nav>
+    {% endif %}
 
-        <header>
-            <h1>{{page.title}}</h1>
-            <p class="{% if page.id %}description-post{% else %}description-page{% endif %}">
-                {% if page.date %}
-                {{ page.date | date: '%B %d, %Y' }} -
-                {% endif %}
-                {{ page.description }}</p>
-        </header>
+    {% if page.is_post %}
+    {{ content }}
+    {% else %}
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+    {{content}}
+    {% endif %}
 
-        {{ content }}
-
-        {% if page.is_post %}
-        <footer>
-            <h2>Liked? Share this!</h2>
-            <ul class="share-buttons list-inline" data-source="simplesharingbuttons.com">
-                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fglpzzz.dev&quote="
-                       target="_blank" title="Share on Facebook"
-                       onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fglpzzz.dev&text=:%20http%3A%2F%2Fglpzzz.dev&via=glpzzz"
-                       target="_blank" title="Tweet"
-                       onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">Twitter</a>
-                </li>
-                <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fglpzzz.dev&title=" target="_blank"
-                       title="Submit to Reddit"
-                       onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">Reddit</a>
-                </li>
-                <li>
-                    <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fglpzzz.dev&title=&summary=&source=http%3A%2F%2Fglpzzz.dev"
-                       target="_blank" title="Share on LinkedIn"
-                       onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">LinkedIn</a>
-                </li>
-            </ul>
-
-            <h2>Keep reading</h2>
-            <ul>
-                {% if page.next %}
-                <li><strong>Next:</strong> <a href="{{page.next.url}}">{{page.next.title}}</a></li>
-                {% endif %}
-                {% if page.previous %}
-                <li><strong>Previous:</strong> <a href="{{page.previous.url}}">{{page.previous.title}}</a></li>
-                {% endif %}
-            </ul>
-        </footer>
-        {% endif %}
-
-    </article>
 </main>
 <footer>
     <h2 id="contact-me">Contact me</h2>

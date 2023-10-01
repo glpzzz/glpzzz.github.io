@@ -11,7 +11,7 @@ description: "I'm Gabriel Alejandro López López (glpzzz) and I'm a software en
         </h2>
         <p class="description-post">
             {% if post.date %}
-                <time datetime="{{ post.date }}">{{ post.date | date: '%B %d, %Y' }} -</time>
+                <time datetime="{{ post.date }}">{{ post.date | date: '%B %d, %Y' }}</time> - 
             {% endif %}
             {{ post.description | xml_escape }}
         </p>
