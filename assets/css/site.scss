@@ -33,14 +33,7 @@
   --orange-dim: #d65d0e;
   --gray-dim: #7c6f64;
 
-  --font-family-sans-serif: /* 1 */
-          -apple-system, BlinkMacSystemFont,
-            /* 2 */
-          "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-            /* 3 */
-          "Helvetica Neue", sans-serif;
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -78,30 +71,37 @@
   }
 }
 
-html, body {
-  padding: 0;
-  margin: 0;
+html {
+  font-size: 16px;
 }
 
 body {
-  background: var(--bg);
+  background: var(--bg_h);
   color: var(--fg);
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
 
-  font-family: var(--font-family-sans-serif);
+main {
+  background: var(--bg);
+  padding: 1rem;
+}
+
+h1 {
+  margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: monospace;
-  font-weight: bold;
-  font-size: 1.2em;
 }
 
 h1 {
-  margin-top: 1rem;
+  font-size: 2rem;
 }
 
-h1, h2 {
-  border: none;
+time{
+  font-size: .8rem;
 }
 
 img {
@@ -121,11 +121,16 @@ blockquote {
   background: var(--bg_h);
   color: var(--fg1);
   padding: .5rem .5rem .5rem 1rem;
-  border-left-color: var(--yellow);
+  border-left: 4px solid var(--yellow);
+  margin: 0;
 }
 
-main {
-  padding: 0 1rem 1rem;
+pre > code {
+  overflow: auto;
+  max-width: 100%;
+  display: block;
+  padding: .25rem .25rem .5rem;
+  background: var(--bg_h);
 }
 
 article {
@@ -133,6 +138,7 @@ article {
     > p {
       color: var(--fg1);
       font-style: italic;
+      font-size: .8rem;
     }
   }
 }
@@ -167,25 +173,20 @@ article {
 }
 
 #post-list {
-
   padding-left: 1rem;
 
   > li {
-
     margin-bottom: 1rem;
-
-    list-style-type: "> ";
 
     > time {
       display: block;
       font-style: italic;
-      font-size: .9em;
     }
 
     > h2 {
+      font-size: inherit;
       display: inline;
       margin: 0;
-      font-size: 1em;
     }
 
     > p {
@@ -195,9 +196,8 @@ article {
 }
 
 body > footer {
-  padding: 0 1rem;
-  margin-bottom: 2rem;
   text-align: center;
+  padding: 0 .5rem .5rem;
 }
 
 ul.list-inline {
@@ -213,11 +213,13 @@ ul.list-inline {
 
 @media (min-width: 1024px) {
 
+  html {
+    font-size: 20px;
+  }
+
   body {
     width: 1024px;
     margin: 0 auto;
-
-    font-size: 18px;
   }
 
   #title-container {

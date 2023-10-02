@@ -11,7 +11,7 @@ layout: home
             <time datetime="{{page.date}}">{{ page.date | date: '%B %d, %Y' }}</time>
             -
             {% endif %}
-            {{ page.description }}
+            {{ page.description | xml_escape }}
         </p>
     </header>
 

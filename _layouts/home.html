@@ -64,12 +64,7 @@
                     "@id": "{{ site.url }}/#author"
                 }
             }
-            {
-                %
-            if
-            page.is_post
-            %
-        },
+            {% if page.is_post %},
             {
                 "@context": "http://schema.org",
                 "@type": "BlogPosting",
@@ -83,11 +78,7 @@
                     "@id": "{{ site.url }}/#author"
                 }
             }
-            {
-                %
-            endif
-            %
-        }
+            {% endif %}
         ]
     </script>
 
@@ -129,15 +120,8 @@
     <meta name="twitter:image"
           content="{% if page.image %}{{page.image}}{% else %}{{ site.url }}/glpzzz.jpg{% endif %}">
 
-    <!--    <link rel="stylesheet"-->
-    <!--          href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"-->
-    <!--          integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="-->
-    <!--          crossorigin="anonymous" referrerpolicy="no-referrer"/>-->
-        <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
-    <!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
-    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"-->
-    <!--          rel="stylesheet">-->
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/emacs.css" rel="stylesheet"/>
     <link rel="stylesheet" href="/assets/css/site.css"/>
 
         <script src="https://unpkg.com/htmx.org@1.9.5"
@@ -171,7 +155,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/cv">CV</a></li>
-            <li><a href="/#contact-me">Contact</a></li>
+            <li><a href="#contact-me">Contact</a></li>
         </ul>
     </nav>
     {% if page.name == 'about.md' %}
