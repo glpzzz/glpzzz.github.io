@@ -13,7 +13,7 @@ Youtube.
 Basically it is a JavaScript library to extend HTML by adding functionality including certain attributes in the HTML
 markup.
 
-There is a lot to say about it but it will refer you to the 2 more important sources
+There is a lot to say about it but I'll refer you to the 2 more important sources
 
 - [htmx.org](https://htmx.org) the official documentation
 - [Hypermedia Systems](https://hypermedia.systems/) a book on the hypermedia concept (the basics of htmx) and a very

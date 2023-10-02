@@ -80,6 +80,7 @@ body {
   color: var(--fg);
   padding: 0;
   margin: 0;
+  font-family: "Noto Sans", sans-serif;
 }
 
 main {
@@ -89,12 +90,15 @@ main {
 
 h1 {
   margin-top: 0;
-  font-family: monospace;
   font-size: 2rem;
 }
 
 time{
   font-size: .8rem;
+}
+
+time, blockquote {
+  font-family: "Noto Serif", serif;
 }
 
 img {
@@ -140,7 +144,7 @@ article {
   background: var(--blue);
   color: var(--bg);
   display: block;
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   font-weight: bold;
   padding: .25rem 1rem;
   text-decoration: none;
@@ -149,7 +153,7 @@ article {
 #main-nav {
   background: var(--bg_h);
   display: flex;
-  font-family: "Fira Code", monospace;
+  font-family: "Noto Sans Mono", monospace;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -178,7 +182,7 @@ article {
     }
 
     > h2 {
-      font-family: serif;
+      font-family: inherit;
       font-size: inherit;
       display: inline;
       margin: 0;
