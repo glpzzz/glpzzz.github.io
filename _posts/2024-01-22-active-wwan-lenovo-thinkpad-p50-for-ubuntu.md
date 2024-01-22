@@ -2,6 +2,7 @@
 title: "Step-by-Step Guide: Enabling WWAN on ThinkPad P50 Ubuntu"
 date: 2024-01-22
 description: "Discover the steps to set up mobile broadband on Lenovo ThinkPad P50 using Ubuntu. Our guide simplifies the WWAN activation process, ensuring a hassle-free experience for users."
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lenovo_thinkpad_p50_%2829237281256%29.jpg/640px-Lenovo_thinkpad_p50_%2829237281256%29.jpg
 ---
 
 If you've encountered issues with the default deactivation of WWAN on your Lenovo ThinkPad P50 after a fresh Ubuntu install, this guide will walk you through the steps to activate it. This is a personal reminder on the commands required to activate this feature based on discussions in [this Ask Ubuntu post](https://askubuntu.com/a/1436705/1023633) where it's explained that WWAN is deactivated by default.
@@ -75,3 +76,6 @@ $ nmcli connection delete Cubacel
 
 - We have addressed the issue of deactivated WWAN on Lenovo ThinkPad P50 running Ubuntu, providing clear steps to activate the modem, set up the mobile broadband connection, and achieve seamless connectivity. Following these steps ensures a successful configuration for utilizing mobile broadband on your ThinkPad P50.
 - Consider also the usage of `modem-manager-gui` to work with the modem, but my notes on that are for another post.
+
+___
+Using image from https://commons.wikimedia.org/wiki/File:Lenovo_thinkpad_p50_%2829237281256%29.jpg licensed with CC BY-SA 2.0.
