@@ -2,7 +2,7 @@
 title: "Integrating Yii3 packages into WordPress"
 date: 2024-03-03
 description: "Using Yii3 packages to render and handle forms in a WordPress website"
-image: https://htmx.org/img/memes/bellcurve2.png
+image: https://www.yiiframework.com/image/design/logo/yii3_full_for_dark.svg
 ---
 
 I was recently assigned with the task of integrating several extensive forms into a WordPress website. These forms
@@ -22,7 +22,7 @@ explore and acquaint myself with these updates.
 
 ## Source code available
 
-You can explore the entire project and review the code by accessing it in https://github.com/glpzzz/yii3press
+You can explore the entire project and review the code by accessing it on [https://github.com/glpzzz/yii3press](GitHub).
 
 Additionally, you can deploy it effortlessly using Docker by simply executing `docker-compose up` from the project's
 root directory. Check the `Dockerfile` for the WordPress setup and content generation which is done automatically.
