@@ -2,7 +2,7 @@
 title: "Integrating Yii3 packages into WordPress"
 date: 2024-03-03
 description: "Exploring the usage of Yii3 packages to render, validate and handle forms in a WordPress website"
-image: https://www.yiiframework.com/image/design/logo/yii3_full_for_dark.svg
+image: https://glpzzz.dev/assets/yii3press.png
 ---
 
 I was recently assigned with the task of integrating several extensive forms into a WordPress website. These forms
