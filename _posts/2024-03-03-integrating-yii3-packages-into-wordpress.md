@@ -22,7 +22,8 @@ explore and acquaint myself with these updates.
 
 ## Source code available
 
-You can explore the entire project and review the code by accessing it in https://github.com/glpzzz/yii3press.
+You can explore the entire project and review the code by accessing it in https://github.com/glpzzz/yii3press
+
 Additionally, you can deploy it effortlessly using Docker by simply executing `docker-compose up` from the project's
 root directory. Check the `Dockerfile` for the WordPress setup and content generation which is done automatically.
 
