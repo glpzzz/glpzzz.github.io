@@ -1,7 +1,7 @@
 ---
 title: "Integrating Yii3 packages into WordPress"
 date: 2024-03-03
-description: "Using Yii3 packages to render and handle forms in a WordPress website"
+description: "Exploring the usage of Yii3 packages to render, validate and handle forms in a WordPress website"
 image: https://www.yiiframework.com/image/design/logo/yii3_full_for_dark.svg
 ---
 
@@ -41,7 +41,7 @@ folder to display this specific page.
 
 This designated file serves as the blueprint for defining our form's markup.
 
-Adding Yii3 Packages to the Project:
+### Adding Yii3 Packages to the Project:
 
 To harness Yii3's functionalities, we'll incorporate the following packages:
 
