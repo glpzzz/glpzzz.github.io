@@ -163,11 +163,7 @@ add_filter('template_redirect', function () use ($hydrator) {
 		if ($queried_object->post_name === 'the-rating-form') {
 			global $form;
 			if ($form === null) {
-				$form = $hydrator->create(RatingForm::class, $_REQUEST['data'] ?? []);
-			}
-
-			if (isset($_REQUEST['data'])) {
-				(new Yiisoft\Validator\Validator())->validate($form);
+				$form = $hydrator->create(RatingForm::class, []);
 			}
 		}
 	}
