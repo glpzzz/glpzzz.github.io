@@ -17,7 +17,7 @@ Given that part of my task entailed logging data, interfacing with API endpoints
 develop the functionality myself, rather than verifying if existing plugins supported these requirements.
 
 Furthermore, considering the current landscape (as of March 2024) where most Yii 3 packages are deemed production-ready
-according to official sources, and being a long-time user of the Yii framework, I deemed it an opportune moment to
+according to [official sources](https://www.yiiframework.com/yii3-progress), and being a long-time user of the Yii framework, I deemed it an opportune moment to
 explore and acquaint myself with these updates.
 
 ## Source code available
