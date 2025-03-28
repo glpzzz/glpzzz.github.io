@@ -5,9 +5,8 @@ description: "I'm Gabriel Alejandro López López (glpzzz) and I'm a software en
 
 # {{page.title}}
 
-I’m a software engineer living in [Cienfuegos, Cuba](https://www.openstreetmap.org/node/259846360). I am a fan of
-programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think
-I can help you with something. My full CV [here](cv).
+I’m a software engineer living in Cancún, México. I am a fan of
+programming, web development, and entrepreneurship. I’m also interested in technology and music. Contact me if you think I can help you with something. My full CV [here](cv).
 
 <div style="clear: both"></div>
 
@@ -21,7 +20,7 @@ I can help you with something. My full CV [here](cv).
   monitor
 * [Ajazz AK33 mechanical keyboard](http://www.a-jazz.com/en/h-pd-63.html)
 * [Logitech M585 mouse](https://www.logitech.com/en-us/products/mice/m585-wireless-mouse.910-005108.html)
-* [Ubuntu 22.10](https://www.ubuntu.com)
+* [Ubuntu 24.10](https://www.ubuntu.com)
 * [dwm](https://dwm.suckless.org), ([my custom build](https://github.com/glpzzz/dwm))
 * [my dotfiles](https://github.com/glpzzz/dotfiles)
 

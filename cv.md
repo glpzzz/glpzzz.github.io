@@ -9,11 +9,11 @@ image: https://glpzzz.dev/glpzzz.jpg
 
 ## Contacts
 
-- Email: [glpz@daxslab.com](mailto:glpz@daxslab.com) 
+- Email: [galopez881016@gmail.com](mailto:galopez881016@gmail.com) 
 - Website: [https://glpzzz.dev](https://glpzzz.dev) 
-- Phone: +5358074332 
-- City: Cienfuegos 
-- Country: CU 
+- Phone: +52 998 482 1603
+- City: Cancún
+- Country: México
 
 ## Profiles
 
